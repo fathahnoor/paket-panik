@@ -1,9 +1,9 @@
 # Task State
 
 Status: IN_PROGRESS
-Updated: 2026-09-11T07:05:00+07:00
+Updated: 2026-09-11T06:56:00+07:00
 Main goal: Design and implement PAKET PANIK, a two-phone Android AR multiplayer game, preserving progress in GitHub and portable handoff files.
-Current checkpoint: Full runtime (core rules, AR shared board, LAN session, presentation) compiles clean with 0 errors; 11/11 EditMode tests pass. Next: Editor scene generator, balance/marker Resources, Android build settings, then APK build and two-device QA.
+Current checkpoint: HOLD by user request until Codex resumes ~10:50 WIB. All runtime code compiles clean (0 errors) and 11/11 EditMode tests pass. Commit 7d7ae29 pushed to origin/main. No scene, Resources, marker library, or APK yet; research notes for the scene generator are in findings.md.
 
 ## Completed
 
@@ -44,7 +44,7 @@ Current checkpoint: Full runtime (core rules, AR shared board, LAN session, pres
 
 ## First step next session
 
-- Read this file, HANDOFF.md if present, Design/GAME_DESIGN.md and Design/TECH_SPEC.md if present. Verify live state before continuing the next incomplete checkpoint.
+- Read this file, HANDOFF.md, progress.md, findings.md (bagian Scene generator), lalu Design/TECH_SPEC.md. Verifikasi `unity status --json` + `git status`. Lanjutkan: Editor scene generator, `Resources/PaketPanik/balance` + `marker-hash`, marker library XRReferenceImageLibrary, ARBackgroundRendererFeature ke renderer URP, scene `Assets/PaketPanik/Scenes/PaketPanik.unity`, Android build settings, lalu build APK.
 
 ## Heartbeat
 

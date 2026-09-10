@@ -29,3 +29,12 @@ Every implementation checkpoint must append its file changes, exact verification
 - Ran EditMode tests `GameRulesTests` via `unity command run_tests`: 11/11 passed, fresh evidence at Evidence/core-tests-cli.json.
 - Next: Editor scene generator (AR Session + XR Origin + tracker + UI), Resources balance/marker-hash, Android build settings, APK build.
 
+## 2026-09-11 06:55 WIB (OpenCode pause checkpoint, resume oleh Codex 10:50)
+
+- Development di-hold atas permintaan pengguna. Tidak ada pekerjaan tersisa yang setengah jadi di disk: working tree hanya berisi perubahan lama `SimulationEnvironmentAssetsManager.asset` (pre-existing, sengaja tidak di-commit).
+- Commit + push terakhir: `7d7ae29` feat: add AR, LAN and presentation runtime with passing core tests. origin/main sinkron.
+- Verifikasi terakhir: recompile clean (failed=false, 0 error console), 11/11 EditMode test lulus, bukti di Evidence/core-tests-cli.json.
+- Riset scene generator sudah dimulai (belum ada file baru): temuan teknis ada di findings.md bagian "Scene generator".
+- Next untuk Codex: tulis `Assets/PaketPanik/Editor/` scene generator + marker library, `Resources/PaketPanik/balance` + `marker-hash`, tambah `ARBackgroundRendererFeature` ke renderer URP, lalu `create_scene`/`save_scene`/`add_scene_to_build` dan build APK.
+
+
