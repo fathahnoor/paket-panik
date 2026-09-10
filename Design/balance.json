@@ -1,0 +1,39 @@
+{
+  "specVersion": "1.0.0",
+  "status": "DESIGN_NOT_PLAYTESTED",
+  "players": 2,
+  "roundSeconds": 90,
+  "countdownSeconds": 3,
+  "tickRate": 20,
+  "targetScore": 12,
+  "anger": {
+    "initial": 20,
+    "maximum": 100,
+    "idlePerSecond": 6,
+    "finalPerSecond": 10,
+    "finalStartsAt": 70,
+    "perActiveLooterPerSecond": 16,
+    "guardReductionPerSecond": 26,
+    "maxEffectiveGuards": 1,
+    "afterBite": 30,
+    "sneezeIncrease": 25
+  },
+  "battery": { "capacity": 100, "drainPerSecond": 25, "rechargePerSecond": 25, "minimumToStart": 10 },
+  "items": {
+    "firstSpawnAt": 1,
+    "spawnEverySeconds": 5,
+    "maxAlive": 3,
+    "socketCount": 6,
+    "socketRadiusMeters": 0.23,
+    "goldEveryNthSpawn": 4,
+    "regular": { "score": 1, "holdSeconds": 1.2, "angerOnCollect": 8, "lifetimeSeconds": 12 },
+    "gold": { "score": 3, "holdSeconds": 1.8, "angerOnCollect": 20, "lifetimeSeconds": 10 }
+  },
+  "sneezeAt": [30, 60],
+  "sneezeWarningSeconds": 0.7,
+  "bite": { "scorePenalty": 3, "maximumBites": 3, "recoveryWallSeconds": 1.5 },
+  "sealHoldSeconds": 1.5,
+  "aim": { "jitterGraceSeconds": 0.15, "minDistanceMeters": 0.25, "maxDistanceMeters": 1.2 },
+  "tracking": { "stableSeconds": 0.5, "staleIntentSeconds": 0.25, "pauseAfterSeconds": 0.75, "abortAfterSeconds": 15 },
+  "network": { "port": 7777, "intentRate": 10, "maxIntentRate": 20, "joinTimeoutSeconds": 10, "maxRttMilliseconds": 150 }
+}

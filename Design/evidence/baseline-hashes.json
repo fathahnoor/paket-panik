@@ -1,0 +1,34 @@
+{
+  "capturedAt": "2026-09-11T06:05:20.5488753+07:00",
+  "purpose": "Read-only design baseline, before any game implementation",
+  "files": [
+    {
+      "path": "Packages/manifest.json",
+      "sha256": "B382B23800B2FD4A3C0F34F6A24AF7D7738D004349B47CD8859BD3E3ADD6BB6E"
+    },
+    {
+      "path": "Packages/packages-lock.json",
+      "sha256": "D78A1C7A0DD51EC10FD4D56DE2C8390D328ABB87ACE8506299A16C24EB7A9B50"
+    },
+    {
+      "path": "ProjectSettings/ProjectVersion.txt",
+      "sha256": "39584C3E6C1E571D53A79EF2DD6EA91C0568AC086792CC435E86401A0BA824ED"
+    },
+    {
+      "path": "ProjectSettings/ProjectSettings.asset",
+      "sha256": "BDCC19D199B70D98BDA472479BB6C24D0B78FB54E48D4AEA1B13B6133BC33ADA"
+    },
+    {
+      "path": "Assets/XR/XRGeneralSettingsPerBuildTarget.asset",
+      "sha256": "C4CECB4683147A918EFF1F6CAFA72D069CE675F5281D6ABFCE9A0202E29C2183"
+    },
+    {
+      "path": "Assets/XR/Settings/OpenXRPackageSettings.asset",
+      "sha256": "C554E10C9BC9617C27FC176D5DB7C43F519F3C181164D519EF9152AF6C2AAFD4"
+    },
+    {
+      "path": "Assets/Scenes/SampleScene.unity",
+      "sha256": "16DD3A6E4485C6278ADBE2B820D1495550E48EDF27D7160D1328643D902DFF45"
+    }
+  ]
+}

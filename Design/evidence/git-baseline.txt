@@ -1,0 +1,1522 @@
+A  .gitattributes
+A  .gitignore
+A  Assets/CompositionLayers.meta
+A  Assets/CompositionLayers/UserSettings.meta
+A  Assets/CompositionLayers/UserSettings/CompositionLayersPreferences.asset
+A  Assets/CompositionLayers/UserSettings/CompositionLayersPreferences.asset.meta
+A  Assets/CompositionLayers/UserSettings/Resources.meta
+A  Assets/CompositionLayers/UserSettings/Resources/CompositionLayersRuntimeSettings.asset
+A  Assets/CompositionLayers/UserSettings/Resources/CompositionLayersRuntimeSettings.asset.meta
+A  Assets/DefaultVolumeProfile.asset
+A  Assets/DefaultVolumeProfile.asset.meta
+AD Assets/Editor.meta
+AD Assets/Editor/HubForceResolve.cs
+AD Assets/Editor/HubForceResolve.cs.meta
+A  Assets/MRTemplateAssets.meta
+A  Assets/MRTemplateAssets/Audio.meta
+A  Assets/MRTemplateAssets/Audio/ButtonClick.wav
+A  Assets/MRTemplateAssets/Audio/ButtonClick.wav.meta
+A  Assets/MRTemplateAssets/Audio/ButtonHover.wav
+A  Assets/MRTemplateAssets/Audio/ButtonHover.wav.meta
+A  Assets/MRTemplateAssets/Audio/Goal.wav
+A  Assets/MRTemplateAssets/Audio/Goal.wav.meta
+A  Assets/MRTemplateAssets/Datums.meta
+A  Assets/MRTemplateAssets/Datums/AndroidXRHandMenuFollowPreset.asset
+A  Assets/MRTemplateAssets/Datums/AndroidXRHandMenuFollowPreset.asset.meta
+A  Assets/MRTemplateAssets/Datums/ControllerMenuFollowPreset.asset
+A  Assets/MRTemplateAssets/Datums/ControllerMenuFollowPreset.asset.meta
+A  Assets/MRTemplateAssets/Datums/HandMenuFollowPreset.asset
+A  Assets/MRTemplateAssets/Datums/HandMenuFollowPreset.asset.meta
+A  Assets/MRTemplateAssets/Fonts.meta
+A  Assets/MRTemplateAssets/Fonts/Inter.meta
+A  Assets/MRTemplateAssets/Fonts/Inter/.gitattributes
+A  "Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular SDF RQ + 5.asset"
+A  "Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular SDF RQ + 5.asset.meta"
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular.ttf
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular.ttf.meta
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF.asset
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF.asset.meta
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF_MaterialXRayBlue.mat
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF_MaterialXRayBlue.mat.meta
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF_NoBackfaceCulling.asset
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF_NoBackfaceCulling.asset.meta
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF_OverlayMaterial.mat
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF_OverlayMaterial.mat.meta
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF_OverlayOutlineMaterial.mat
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF_OverlayOutlineMaterial.mat.meta
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF_OverlayOutlineThickMaterial.mat
+A  Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular_SDF_OverlayOutlineThickMaterial.mat.meta
+A  Assets/MRTemplateAssets/MRTemplate.asmdef
+A  Assets/MRTemplateAssets/MRTemplate.asmdef.meta
+A  Assets/MRTemplateAssets/MRTemplateInputActions.inputactions
+A  Assets/MRTemplateAssets/MRTemplateInputActions.inputactions.meta
+A  Assets/MRTemplateAssets/Materials.meta
+A  Assets/MRTemplateAssets/Materials/AR.meta
+A  Assets/MRTemplateAssets/Materials/AR/ARF_OcclusionMaterial.mat
+A  Assets/MRTemplateAssets/Materials/AR/ARF_OcclusionMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/BoundingBoxBottomEdgeGradientMaterial.mat
+A  Assets/MRTemplateAssets/Materials/AR/BoundingBoxBottomEdgeGradientMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/BoundingBoxFaceMaterial.mat
+A  Assets/MRTemplateAssets/Materials/AR/BoundingBoxFaceMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/BoundingBoxTopEdgeGradientMaterial.mat
+A  Assets/MRTemplateAssets/Materials/AR/BoundingBoxTopEdgeGradientMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/BoundingBoxVerticalEdgeGradientMaterial.mat
+A  Assets/MRTemplateAssets/Materials/AR/BoundingBoxVerticalEdgeGradientMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/DepthOnlyPlanes.mat
+A  Assets/MRTemplateAssets/Materials/AR/DepthOnlyPlanes.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/OcclusionMaterial.mat
+A  Assets/MRTemplateAssets/Materials/AR/OcclusionMaterial.mat.meta
+A  "Assets/MRTemplateAssets/Materials/AR/PlaneMaterial (Feathered).mat"
+A  "Assets/MRTemplateAssets/Materials/AR/PlaneMaterial (Feathered).mat.meta"
+A  Assets/MRTemplateAssets/Materials/AR/PlaneMaterial.mat
+A  Assets/MRTemplateAssets/Materials/AR/PlaneMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/PlaneOutline.mat
+A  Assets/MRTemplateAssets/Materials/AR/PlaneOutline.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/Shadow.mat
+A  Assets/MRTemplateAssets/Materials/AR/Shadow.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/XMaterial.mat
+A  Assets/MRTemplateAssets/Materials/AR/XMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/YMaterial.mat
+A  Assets/MRTemplateAssets/Materials/AR/YMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/AR/ZMaterial.mat
+A  Assets/MRTemplateAssets/Materials/AR/ZMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/Controller.meta
+A  Assets/MRTemplateAssets/Materials/Controller/DefaultMaterial_AO.png
+A  Assets/MRTemplateAssets/Materials/Controller/DefaultMaterial_AO.png.meta
+A  Assets/MRTemplateAssets/Materials/Controller/UniversalMaterialGrey.mat
+A  Assets/MRTemplateAssets/Materials/Controller/UniversalMaterialGrey.mat.meta
+A  Assets/MRTemplateAssets/Materials/Controller/UniversalMaterialWhite.mat
+A  Assets/MRTemplateAssets/Materials/Controller/UniversalMaterialWhite.mat.meta
+A  Assets/MRTemplateAssets/Materials/Pointer.meta
+A  Assets/MRTemplateAssets/Materials/Pointer/PointerOutline.mat
+A  Assets/MRTemplateAssets/Materials/Pointer/PointerOutline.mat.meta
+A  Assets/MRTemplateAssets/Materials/Primitive.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Concrete_Normal.tif
+A  Assets/MRTemplateAssets/Materials/Primitive/Concrete_Normal.tif.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables.mat
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables.mat.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables.physicMaterial
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables.physicMaterial.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_2.mat
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_2.mat.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_3.mat
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_3.mat.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_4.mat
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_4.mat.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_5.mat
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_5.mat.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_6.mat
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_6.mat.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_Bouncy.physicMaterial
+A  Assets/MRTemplateAssets/Materials/Primitive/Interactables_Bouncy.physicMaterial.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Static.mat
+A  Assets/MRTemplateAssets/Materials/Primitive/Static.mat.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Sticky.physicMaterial
+A  Assets/MRTemplateAssets/Materials/Primitive/Sticky.physicMaterial.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Torus.mat
+A  Assets/MRTemplateAssets/Materials/Primitive/Torus.mat.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Torus_BaseColor.png
+A  Assets/MRTemplateAssets/Materials/Primitive/Torus_BaseColor.png.meta
+A  Assets/MRTemplateAssets/Materials/Primitive/Torus_Normal.png
+A  Assets/MRTemplateAssets/Materials/Primitive/Torus_Normal.png.meta
+A  Assets/MRTemplateAssets/Materials/Skybox.meta
+A  Assets/MRTemplateAssets/Materials/Skybox/FadeCube.mat
+A  Assets/MRTemplateAssets/Materials/Skybox/FadeCube.mat.meta
+A  Assets/MRTemplateAssets/Materials/Skybox/Skybox01.mat
+A  Assets/MRTemplateAssets/Materials/Skybox/Skybox01.mat.meta
+A  Assets/MRTemplateAssets/Materials/Skybox/Skybox01.png
+A  Assets/MRTemplateAssets/Materials/Skybox/Skybox01.png.meta
+A  Assets/MRTemplateAssets/Materials/Skybox/Skybox01_2d_seams.png
+A  Assets/MRTemplateAssets/Materials/Skybox/Skybox01_2d_seams.png.meta
+A  Assets/MRTemplateAssets/Materials/Skybox/UnlitVertexColor.mat
+A  Assets/MRTemplateAssets/Materials/Skybox/UnlitVertexColor.mat.meta
+A  Assets/MRTemplateAssets/Materials/UI.meta
+A  Assets/MRTemplateAssets/Materials/UI/RingsSeed.mat
+A  Assets/MRTemplateAssets/Materials/UI/RingsSeed.mat.meta
+A  Assets/MRTemplateAssets/Materials/UI/TmpOverlayMaterial.mat
+A  Assets/MRTemplateAssets/Materials/UI/TmpOverlayMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/UI/UIOverlayMaterial.mat
+A  Assets/MRTemplateAssets/Materials/UI/UIOverlayMaterial.mat.meta
+A  Assets/MRTemplateAssets/Materials/UI/VideoTexture.mat
+A  Assets/MRTemplateAssets/Materials/UI/VideoTexture.mat.meta
+A  Assets/MRTemplateAssets/Models.meta
+A  Assets/MRTemplateAssets/Models/Blaster.fbx
+A  Assets/MRTemplateAssets/Models/Blaster.fbx.meta
+A  Assets/MRTemplateAssets/Models/Controllers.meta
+A  Assets/MRTemplateAssets/Models/Controllers/UniversalController.fbx
+A  Assets/MRTemplateAssets/Models/Controllers/UniversalController.fbx.meta
+A  Assets/MRTemplateAssets/Models/Environment.fbx
+A  Assets/MRTemplateAssets/Models/Environment.fbx.meta
+A  Assets/MRTemplateAssets/Models/FloatingCylinder.fbx
+A  Assets/MRTemplateAssets/Models/FloatingCylinder.fbx.meta
+A  Assets/MRTemplateAssets/Models/Poke.meta
+A  Assets/MRTemplateAssets/Models/Poke/PinchPointer.fbx
+A  Assets/MRTemplateAssets/Models/Poke/PinchPointer.fbx.meta
+A  Assets/MRTemplateAssets/Models/Poke/Pinch_Pointer_LOD0.fbx
+A  Assets/MRTemplateAssets/Models/Poke/Pinch_Pointer_LOD0.fbx.meta
+A  Assets/MRTemplateAssets/Models/PokePointer.fbx
+A  Assets/MRTemplateAssets/Models/PokePointer.fbx.meta
+A  Assets/MRTemplateAssets/Models/Primitives.meta
+A  Assets/MRTemplateAssets/Models/Primitives/Cone.fbx
+A  Assets/MRTemplateAssets/Models/Primitives/Cone.fbx.meta
+A  Assets/MRTemplateAssets/Models/Primitives/Cube.fbx
+A  Assets/MRTemplateAssets/Models/Primitives/Cube.fbx.meta
+A  Assets/MRTemplateAssets/Models/Primitives/Cylinder.fbx
+A  Assets/MRTemplateAssets/Models/Primitives/Cylinder.fbx.meta
+A  Assets/MRTemplateAssets/Models/Primitives/Disc.fbx
+A  Assets/MRTemplateAssets/Models/Primitives/Disc.fbx.meta
+A  Assets/MRTemplateAssets/Models/Primitives/Plane.fbx
+A  Assets/MRTemplateAssets/Models/Primitives/Plane.fbx.meta
+A  Assets/MRTemplateAssets/Models/Primitives/Pyramid.fbx
+A  Assets/MRTemplateAssets/Models/Primitives/Pyramid.fbx.meta
+A  Assets/MRTemplateAssets/Models/Primitives/Sphere.fbx
+A  Assets/MRTemplateAssets/Models/Primitives/Sphere.fbx.meta
+A  Assets/MRTemplateAssets/Models/Primitives/TaperedCylinder.fbx
+A  Assets/MRTemplateAssets/Models/Primitives/TaperedCylinder.fbx.meta
+A  Assets/MRTemplateAssets/Models/Primitives/Tetra.fbx
+A  Assets/MRTemplateAssets/Models/Primitives/Tetra.fbx.meta
+A  Assets/MRTemplateAssets/Models/Primitives/Torus.fbx
+A  Assets/MRTemplateAssets/Models/Primitives/Torus.fbx.meta
+A  Assets/MRTemplateAssets/Models/SittingCylinder.fbx
+A  Assets/MRTemplateAssets/Models/SittingCylinder.fbx.meta
+A  Assets/MRTemplateAssets/Models/SphereInverted.fbx
+A  Assets/MRTemplateAssets/Models/SphereInverted.fbx.meta
+A  Assets/MRTemplateAssets/Models/Totem_1.fbx
+A  Assets/MRTemplateAssets/Models/Totem_1.fbx.meta
+A  Assets/MRTemplateAssets/Models/Totem_2.fbx
+A  Assets/MRTemplateAssets/Models/Totem_2.fbx.meta
+A  Assets/MRTemplateAssets/Models/Totem_3.fbx
+A  Assets/MRTemplateAssets/Models/Totem_3.fbx.meta
+A  Assets/MRTemplateAssets/Models/UI.meta
+A  Assets/MRTemplateAssets/Models/UI/SpatialPanelManipulatorModel.fbx
+A  Assets/MRTemplateAssets/Models/UI/SpatialPanelManipulatorModel.fbx.meta
+A  Assets/MRTemplateAssets/Prefabs.meta
+A  Assets/MRTemplateAssets/Prefabs/AR.meta
+A  Assets/MRTemplateAssets/Prefabs/AR/ARAnchor.prefab
+A  Assets/MRTemplateAssets/Prefabs/AR/ARAnchor.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/AR/ARBoundingBox.prefab
+A  Assets/MRTemplateAssets/Prefabs/AR/ARBoundingBox.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/AR/ARPlane.prefab
+A  Assets/MRTemplateAssets/Prefabs/AR/ARPlane.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/AR/SmallTriAxes.prefab
+A  Assets/MRTemplateAssets/Prefabs/AR/SmallTriAxes.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/AR/TriAxes.prefab
+A  Assets/MRTemplateAssets/Prefabs/AR/TriAxes.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/Blaster.meta
+A  Assets/MRTemplateAssets/Prefabs/Blaster/Confetti.prefab
+A  Assets/MRTemplateAssets/Prefabs/Blaster/Confetti.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/ContactSpawnTrigger.prefab
+A  Assets/MRTemplateAssets/Prefabs/ContactSpawnTrigger.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/Controller.meta
+A  Assets/MRTemplateAssets/Prefabs/Controller/LeftController.prefab
+A  Assets/MRTemplateAssets/Prefabs/Controller/LeftController.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/Controller/RightController.prefab
+A  Assets/MRTemplateAssets/Prefabs/Controller/RightController.prefab.meta
+A  "Assets/MRTemplateAssets/Prefabs/MR Interaction Setup.prefab"
+A  "Assets/MRTemplateAssets/Prefabs/MR Interaction Setup.prefab.meta"
+A  Assets/MRTemplateAssets/Prefabs/OcclusionPrefabs.meta
+A  "Assets/MRTemplateAssets/Prefabs/OcclusionPrefabs/TotemFloatingTorus - Occlusion.prefab"
+A  "Assets/MRTemplateAssets/Prefabs/OcclusionPrefabs/TotemFloatingTorus - Occlusion.prefab.meta"
+A  "Assets/MRTemplateAssets/Prefabs/OcclusionPrefabs/TotemKinetic - Occlusion.prefab"
+A  "Assets/MRTemplateAssets/Prefabs/OcclusionPrefabs/TotemKinetic - Occlusion.prefab.meta"
+A  "Assets/MRTemplateAssets/Prefabs/Permissions Manager Variant.prefab"
+A  "Assets/MRTemplateAssets/Prefabs/Permissions Manager Variant.prefab.meta"
+A  Assets/MRTemplateAssets/Prefabs/SittingCylinder.prefab
+A  Assets/MRTemplateAssets/Prefabs/SittingCylinder.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/SittingCylinderOffset.prefab
+A  Assets/MRTemplateAssets/Prefabs/SittingCylinderOffset.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/TestObject.prefab
+A  Assets/MRTemplateAssets/Prefabs/TestObject.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/TotemBlaster.prefab
+A  Assets/MRTemplateAssets/Prefabs/TotemBlaster.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/TotemFloatingTorus.prefab
+A  Assets/MRTemplateAssets/Prefabs/TotemFloatingTorus.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/TotemKinetic.prefab
+A  Assets/MRTemplateAssets/Prefabs/TotemKinetic.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/TutorialPlayer.meta
+A  Assets/MRTemplateAssets/Prefabs/TutorialPlayer/TutorialPlayer.prefab
+A  Assets/MRTemplateAssets/Prefabs/TutorialPlayer/TutorialPlayer.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/CoachingUI.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/CoachingUI.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/Dropdown.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/Dropdown.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/HandMenuSetupVariant_MRTemplate.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/HandMenuSetupVariant_MRTemplate.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/IndexTipPrefab.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/IndexTipPrefab.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/ListItemBooleanToggle.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/ListItemBooleanToggle.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/ListItemButton.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/ListItemButton.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/ListItemDropdown.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/ListItemDropdown.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/ListItemSlider.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/ListItemSlider.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/ListItemToggle.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/ListItemToggle.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/SpatialPanelScroll.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/SpatialPanelScroll.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/TapVisualization.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/TapVisualization.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/Toggle_MRTemplate.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/Toggle_MRTemplate.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/Tooltip.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/Tooltip.prefab.meta
+A  Assets/MRTemplateAssets/Prefabs/UI/TooltipWorldspace.prefab
+A  Assets/MRTemplateAssets/Prefabs/UI/TooltipWorldspace.prefab.meta
+A  Assets/MRTemplateAssets/Scripts.meta
+A  Assets/MRTemplateAssets/Scripts/ARBoundingBoxDebugVisualizer.cs
+A  Assets/MRTemplateAssets/Scripts/ARBoundingBoxDebugVisualizer.cs.meta
+A  Assets/MRTemplateAssets/Scripts/ARFeatureController.cs
+A  Assets/MRTemplateAssets/Scripts/ARFeatureController.cs.meta
+A  Assets/MRTemplateAssets/Scripts/BooleanToggleVisualsController.cs
+A  Assets/MRTemplateAssets/Scripts/BooleanToggleVisualsController.cs.meta
+A  Assets/MRTemplateAssets/Scripts/BoundingBoxEdgeVisualizer.cs
+A  Assets/MRTemplateAssets/Scripts/BoundingBoxEdgeVisualizer.cs.meta
+A  Assets/MRTemplateAssets/Scripts/DebugInfoDisplayController.cs
+A  Assets/MRTemplateAssets/Scripts/DebugInfoDisplayController.cs.meta
+A  Assets/MRTemplateAssets/Scripts/FadeMaterial.cs
+A  Assets/MRTemplateAssets/Scripts/FadeMaterial.cs.meta
+A  Assets/MRTemplateAssets/Scripts/GazeTooltips.cs
+A  Assets/MRTemplateAssets/Scripts/GazeTooltips.cs.meta
+A  Assets/MRTemplateAssets/Scripts/GoalManager.cs
+A  Assets/MRTemplateAssets/Scripts/GoalManager.cs.meta
+A  Assets/MRTemplateAssets/Scripts/HandSubsystemManager.cs
+A  Assets/MRTemplateAssets/Scripts/HandSubsystemManager.cs.meta
+A  Assets/MRTemplateAssets/Scripts/LaunchProjectile.cs
+A  Assets/MRTemplateAssets/Scripts/LaunchProjectile.cs.meta
+A  Assets/MRTemplateAssets/Scripts/OcclusionManager.cs
+A  Assets/MRTemplateAssets/Scripts/OcclusionManager.cs.meta
+A  Assets/MRTemplateAssets/Scripts/PinchVizController.cs
+A  Assets/MRTemplateAssets/Scripts/PinchVizController.cs.meta
+A  Assets/MRTemplateAssets/Scripts/PlaneTrackingModeVisualizer.cs
+A  Assets/MRTemplateAssets/Scripts/PlaneTrackingModeVisualizer.cs.meta
+A  Assets/MRTemplateAssets/Scripts/PositionAtStart.cs
+A  Assets/MRTemplateAssets/Scripts/PositionAtStart.cs.meta
+A  Assets/MRTemplateAssets/Scripts/SaveAndLoadAnchorDataToFile.cs
+A  Assets/MRTemplateAssets/Scripts/SaveAndLoadAnchorDataToFile.cs.meta
+A  Assets/MRTemplateAssets/Scripts/SpawnedObjectsManager.cs
+A  Assets/MRTemplateAssets/Scripts/SpawnedObjectsManager.cs.meta
+A  Assets/MRTemplateAssets/Scripts/TurnToFace.cs
+A  Assets/MRTemplateAssets/Scripts/TurnToFace.cs.meta
+A  Assets/MRTemplateAssets/Scripts/VideoPlayerRenderTexture.cs
+A  Assets/MRTemplateAssets/Scripts/VideoPlayerRenderTexture.cs.meta
+A  Assets/MRTemplateAssets/Scripts/VideoTimeScrubControl.cs
+A  Assets/MRTemplateAssets/Scripts/VideoTimeScrubControl.cs.meta
+A  Assets/MRTemplateAssets/Scripts/XRBlaster.cs
+A  Assets/MRTemplateAssets/Scripts/XRBlaster.cs.meta
+A  Assets/MRTemplateAssets/Scripts/XRPokeFollowAffordanceFill.cs
+A  Assets/MRTemplateAssets/Scripts/XRPokeFollowAffordanceFill.cs.meta
+A  Assets/MRTemplateAssets/Scripts/ZoneScale.cs
+A  Assets/MRTemplateAssets/Scripts/ZoneScale.cs.meta
+A  Assets/MRTemplateAssets/Shaders.meta
+A  Assets/MRTemplateAssets/Shaders/BoundingBoxShader.shader
+A  Assets/MRTemplateAssets/Shaders/BoundingBoxShader.shader.meta
+A  Assets/MRTemplateAssets/Shaders/CustomBottomEdgeGradient.shader
+A  Assets/MRTemplateAssets/Shaders/CustomBottomEdgeGradient.shader.meta
+A  Assets/MRTemplateAssets/Shaders/CustomGradient.shader
+A  Assets/MRTemplateAssets/Shaders/CustomGradient.shader.meta
+A  Assets/MRTemplateAssets/Shaders/CustomLighting.hlsl
+A  Assets/MRTemplateAssets/Shaders/CustomLighting.hlsl.meta
+A  Assets/MRTemplateAssets/Shaders/CustomTopEdgeGradient.shader
+A  Assets/MRTemplateAssets/Shaders/CustomTopEdgeGradient.shader.meta
+A  Assets/MRTemplateAssets/Shaders/Dots.shadergraph
+A  Assets/MRTemplateAssets/Shaders/Dots.shadergraph.meta
+A  Assets/MRTemplateAssets/Shaders/InteractablePrimitive.shadergraph
+A  Assets/MRTemplateAssets/Shaders/InteractablePrimitive.shadergraph.meta
+A  Assets/MRTemplateAssets/Shaders/Occlusion.meta
+A  Assets/MRTemplateAssets/Shaders/Occlusion/OcclusionComputation.hlsl
+A  Assets/MRTemplateAssets/Shaders/Occlusion/OcclusionComputation.hlsl.meta
+A  Assets/MRTemplateAssets/Shaders/Occlusion/OcclusionInputOutput.hlsl
+A  Assets/MRTemplateAssets/Shaders/Occlusion/OcclusionInputOutput.hlsl.meta
+A  Assets/MRTemplateAssets/Shaders/Occlusion/OcclusionSimpleLit.meta
+A  Assets/MRTemplateAssets/Shaders/Occlusion/OcclusionSimpleLit/OcclusionSimpleLit.shader
+A  Assets/MRTemplateAssets/Shaders/Occlusion/OcclusionSimpleLit/OcclusionSimpleLit.shader.meta
+A  Assets/MRTemplateAssets/Shaders/Occlusion/OcclusionSimpleLit/OcclusionSimpleLitForwardPass.hlsl
+A  Assets/MRTemplateAssets/Shaders/Occlusion/OcclusionSimpleLit/OcclusionSimpleLitForwardPass.hlsl.meta
+A  Assets/MRTemplateAssets/Shaders/Occlusion/Utils.hlsl
+A  Assets/MRTemplateAssets/Shaders/Occlusion/Utils.hlsl.meta
+A  Assets/MRTemplateAssets/Shaders/PlaneOcclusionShader.shader
+A  Assets/MRTemplateAssets/Shaders/PlaneOcclusionShader.shader.meta
+A  Assets/MRTemplateAssets/Shaders/PlaneShader.shader
+A  Assets/MRTemplateAssets/Shaders/PlaneShader.shader.meta
+A  Assets/MRTemplateAssets/Shaders/ShadowReceiver.shadergraph
+A  Assets/MRTemplateAssets/Shaders/ShadowReceiver.shadergraph.meta
+A  Assets/MRTemplateAssets/Shaders/SubGraphs.meta
+A  Assets/MRTemplateAssets/Shaders/SubGraphs/MainLightShadows.shadersubgraph
+A  Assets/MRTemplateAssets/Shaders/SubGraphs/MainLightShadows.shadersubgraph.meta
+A  Assets/MRTemplateAssets/Shaders/TexturedFresnelStandard.shader
+A  Assets/MRTemplateAssets/Shaders/TexturedFresnelStandard.shader.meta
+A  Assets/MRTemplateAssets/Shaders/TexturedStableFresnelCommon.cginc
+A  Assets/MRTemplateAssets/Shaders/TexturedStableFresnelCommon.cginc.meta
+A  Assets/MRTemplateAssets/Shaders/UnlitWithShadows.shadergraph
+A  Assets/MRTemplateAssets/Shaders/UnlitWithShadows.shadergraph.meta
+A  Assets/MRTemplateAssets/Shaders/VertexColor.shadergraph
+A  Assets/MRTemplateAssets/Shaders/VertexColor.shadergraph.meta
+A  Assets/MRTemplateAssets/Sprites.meta
+A  Assets/MRTemplateAssets/Sprites/CoachingCards.meta
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/CoachingStep1.png
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/CoachingStep1.png.meta
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/RoomSetupAnimation.anim
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/RoomSetupAnimation.anim.meta
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/SpriteSheet.png
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/SpriteSheet.png.meta
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/SpriteSheet_0.controller
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/SpriteSheet_0.controller.meta
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/SpriteSheet_Tap.png
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/SpriteSheet_Tap.png.meta
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/SpriteSheet_Tap_0.controller
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/SpriteSheet_Tap_0.controller.meta
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/TapAnim.anim
+A  Assets/MRTemplateAssets/Sprites/CoachingCards/TapAnim.anim.meta
+A  Assets/MRTemplateAssets/Sprites/Icons.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/Atlas_Icons_ARF_Features.png
+A  Assets/MRTemplateAssets/Sprites/Icons/Atlas_Icons_ARF_Features.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/Cancel.png
+A  Assets/MRTemplateAssets/Sprites/Icons/Cancel.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/Checkmark.png
+A  Assets/MRTemplateAssets/Sprites/Icons/Checkmark.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/Chevron.png
+A  Assets/MRTemplateAssets/Sprites/Icons/Chevron.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/Forward.png
+A  Assets/MRTemplateAssets/Sprites/Icons/Forward.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/IconAnchor.png
+A  Assets/MRTemplateAssets/Sprites/Icons/IconAnchor.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/IconBoundingBox.png
+A  Assets/MRTemplateAssets/Sprites/Icons/IconBoundingBox.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/IconPlanes.png
+A  Assets/MRTemplateAssets/Sprites/Icons/IconPlanes.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/Info.png
+A  Assets/MRTemplateAssets/Sprites/Icons/Info.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/Pause.png
+A  Assets/MRTemplateAssets/Sprites/Icons/Pause.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/Play.png
+A  Assets/MRTemplateAssets/Sprites/Icons/Play.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/RotateLeft.png
+A  Assets/MRTemplateAssets/Sprites/Icons/RotateLeft.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/RotateRight.png
+A  Assets/MRTemplateAssets/Sprites/Icons/RotateRight.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/ScrollDown.png
+A  Assets/MRTemplateAssets/Sprites/Icons/ScrollDown.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/ScrollLeft.png
+A  Assets/MRTemplateAssets/Sprites/Icons/ScrollLeft.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/ScrollRight.png
+A  Assets/MRTemplateAssets/Sprites/Icons/ScrollRight.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/ScrollUp.png
+A  Assets/MRTemplateAssets/Sprites/Icons/ScrollUp.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/Teleport.png
+A  Assets/MRTemplateAssets/Sprites/Icons/Teleport.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/UI_Icon_Atlas.png
+A  Assets/MRTemplateAssets/Sprites/Icons/UI_Icon_Atlas.png.meta
+A  Assets/MRTemplateAssets/Sprites/Icons/Warning.png
+A  Assets/MRTemplateAssets/Sprites/Icons/Warning.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI.meta
+A  Assets/MRTemplateAssets/Sprites/UI/CircleMask.png
+A  Assets/MRTemplateAssets/Sprites/UI/CircleMask.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/Circle_60x60_Horizontal.png
+A  Assets/MRTemplateAssets/Sprites/UI/Circle_60x60_Horizontal.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/Circle_60x60_Outline.png
+A  Assets/MRTemplateAssets/Sprites/UI/Circle_60x60_Outline.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/Circle_60x60_Outline_4.png
+A  Assets/MRTemplateAssets/Sprites/UI/Circle_60x60_Outline_4.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/Circle_60x60_Vertical.png
+A  Assets/MRTemplateAssets/Sprites/UI/Circle_60x60_Vertical.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/Circle_Outline_2.png
+A  Assets/MRTemplateAssets/Sprites/UI/Circle_Outline_2.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/JoystickSegment.png
+A  Assets/MRTemplateAssets/Sprites/UI/JoystickSegment.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/Joystick_BG.png
+A  Assets/MRTemplateAssets/Sprites/UI/Joystick_BG.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/Round_Radius_10.png
+A  Assets/MRTemplateAssets/Sprites/UI/Round_Radius_10.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/Round_Radius_10_Bottom.png
+A  Assets/MRTemplateAssets/Sprites/UI/Round_Radius_10_Bottom.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/Round_Radius_10_Outline.png
+A  Assets/MRTemplateAssets/Sprites/UI/Round_Radius_10_Outline.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/Round_Radius_10_Top.png
+A  Assets/MRTemplateAssets/Sprites/UI/Round_Radius_10_Top.png.meta
+A  Assets/MRTemplateAssets/Sprites/UI/TooltipCarret_4x.png
+A  Assets/MRTemplateAssets/Sprites/UI/TooltipCarret_4x.png.meta
+A  Assets/MRTemplateAssets/Textures.meta
+A  "Assets/MRTemplateAssets/Textures/Diagonal Stripes.png"
+A  "Assets/MRTemplateAssets/Textures/Diagonal Stripes.png.meta"
+A  Assets/MRTemplateAssets/Textures/Dot-32.png
+A  Assets/MRTemplateAssets/Textures/Dot-32.png.meta
+A  Assets/MRTemplateAssets/Textures/PlanePatternDot.png
+A  Assets/MRTemplateAssets/Textures/PlanePatternDot.png.meta
+A  Assets/MRTemplateAssets/Themes.meta
+A  Assets/MRTemplateAssets/Themes/AudioAffordanceTheme.asset
+A  Assets/MRTemplateAssets/Themes/AudioAffordanceTheme.asset.meta
+A  Assets/MRTemplateAssets/Themes/BlendShapeAffordanceTheme.asset
+A  Assets/MRTemplateAssets/Themes/BlendShapeAffordanceTheme.asset.meta
+A  Assets/MRTemplateAssets/Themes/ColorAffordanceTheme.asset
+A  Assets/MRTemplateAssets/Themes/ColorAffordanceTheme.asset.meta
+A  Assets/MRTemplateAssets/Themes/EdgeColorAffordanceTheme.asset
+A  Assets/MRTemplateAssets/Themes/EdgeColorAffordanceTheme.asset.meta
+A  Assets/MRTemplateAssets/Tutorial.meta
+A  Assets/MRTemplateAssets/Tutorial/Images.meta
+A  Assets/MRTemplateAssets/Tutorial/Images/Project-Header.png
+A  Assets/MRTemplateAssets/Tutorial/Images/Project-Header.png.meta
+A  "Assets/MRTemplateAssets/Tutorial/Images/Unity Logo.png"
+A  "Assets/MRTemplateAssets/Tutorial/Images/Unity Logo.png.meta"
+A  Assets/MRTemplateAssets/Tutorial/Images/Welcome-Screen-Image.png
+A  Assets/MRTemplateAssets/Tutorial/Images/Welcome-Screen-Image.png.meta
+A  Assets/MRTemplateAssets/Tutorial/MRTutorialContainer.asset
+A  Assets/MRTemplateAssets/Tutorial/MRTutorialContainer.asset.meta
+A  Assets/MRTemplateAssets/Tutorial/MRTutorialProjectSettings.asset
+A  Assets/MRTemplateAssets/Tutorial/MRTutorialProjectSettings.asset.meta
+A  Assets/MRTemplateAssets/Tutorial/MRTutorialStyle.asset
+A  Assets/MRTemplateAssets/Tutorial/MRTutorialStyle.asset.meta
+A  Assets/MRTemplateAssets/Tutorial/MRTutorialWelcomePage.asset
+A  Assets/MRTemplateAssets/Tutorial/MRTutorialWelcomePage.asset.meta
+A  Assets/MRTemplateAssets/Tutorial/TutorialLayout.wlt
+A  Assets/MRTemplateAssets/Tutorial/TutorialLayout.wlt.meta
+A  Assets/MRTemplateAssets/Videos.meta
+A  Assets/MRTemplateAssets/Videos/OnboardingVideoMRT.webm
+A  Assets/MRTemplateAssets/Videos/OnboardingVideoMRT.webm.meta
+A  Assets/Samples.meta
+A  "Assets/Samples/XR Hands.meta"
+A  "Assets/Samples/XR Hands/1.8.1.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/HandVisualizer.unity"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/HandVisualizer.unity.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/AxisMesh.asset"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/AxisMesh.asset.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/HandsDefaultMaterial.mat"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/HandsDefaultMaterial.mat.meta"
+AM "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/HighFidelity.mat"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/HighFidelity.mat.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/HighFidelity.png"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/HighFidelity.png.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/MaterialPipelineHandler.asset"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/MaterialPipelineHandler.asset.meta"
+AM "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/TransparentRed.mat"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/TransparentRed.mat.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/TransparentRed.png"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Materials/TransparentRed.png.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Models.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Models/LeftHand.fbx"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Models/LeftHand.fbx.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Models/LeftHandAndroidXR.fbx"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Models/LeftHandAndroidXR.fbx.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Models/RightHand.fbx"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Models/RightHand.fbx.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Models/RightHandAndroidXR.fbx"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Models/RightHandAndroidXR.fbx.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs/Hand Debug Visualizer.prefab"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs/Hand Debug Visualizer.prefab.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs/Joint.prefab"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs/Joint.prefab.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs/Left Hand Tracking.prefab"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs/Left Hand Tracking.prefab.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs/Right Hand Tracking.prefab"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs/Right Hand Tracking.prefab.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs/VelocityPrefab.prefab"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Prefabs/VelocityPrefab.prefab.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/README.md"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/README.md.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Scripts.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Scripts/HandProcessor.cs"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Scripts/HandProcessor.cs.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Scripts/HandVisualizer.cs"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Scripts/HandVisualizer.cs.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Scripts/JointVisualizer.cs"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Scripts/JointVisualizer.cs.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Scripts/MaterialPipelineHandler.cs.meta"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef"
+A  "Assets/Samples/XR Hands/1.8.1/HandVisualizer/Unity.XR.Hands.Samples.VisualizerSample.asmdef.meta"
+A  "Assets/Samples/XR Interaction Toolkit.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/ARDemoScene.unity"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/ARDemoScene.unity.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/ARStarterAssets.asmdef"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/ARStarterAssets.asmdef.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/AffordanceThemes.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/AffordanceThemes/InteractionColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/AffordanceThemes/InteractionColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Animation.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Animation/MenuHide.anim"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Animation/MenuHide.anim.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Animation/ObjectMenu.controller"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Animation/ObjectMenu.controller.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Materials.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Materials/InteractableMat.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Materials/InteractableMat.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Arch.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Arch.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Cube_Debug.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Cube_Debug.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Cylinder.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Cylinder.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Pyramid.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Pyramid.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_RoundCube.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_RoundCube.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Torus.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Torus.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Wedge.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Models/Primitive_Wedge.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Arch.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Arch.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Cube.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Cube.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Cylinder.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Cylinder.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Debug Cube.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Debug Cube.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Pyramid.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Pyramid.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Torus.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Torus.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Wedge.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Prefabs/Wedge.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Scripts.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Scripts/ARSampleMenuManager.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Scripts/ARSampleMenuManager.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Button - Circular BG.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Button - Circular BG.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Button - Rounded Highlight.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Button - Rounded Highlight.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Button - Rounded Radius - 4px.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Button - Rounded Radius - 4px.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Button - Rounded Square BG.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Button - Rounded Square BG.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Create.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Create.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Delete.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Delete.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Arch.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Arch.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Cylinder.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Cylinder.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Debug Cube.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Debug Cube.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Pyramid.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Pyramid.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Rounded Cube.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Rounded Cube.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Torus.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Torus.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Wedge.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Sprites/Icon - Object - Wedge.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Textures.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Textures/ConcreteNormal.tif"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/DemoAssets/Textures/ConcreteNormal.tif.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Editor.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Editor/ARStarterAssets.Editor.asmdef"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Editor/ARStarterAssets.Editor.asmdef.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Editor/Scripts.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Editor/Scripts/ARStarterAssetsSampleProjectValidation.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Editor/Scripts/ARStarterAssetsSampleProjectValidation.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Materials.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Materials/FeatheredPlaneMaterial.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Materials/FeatheredPlaneMaterial.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Prefabs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Prefabs/AR Feathered Plane.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Prefabs/AR Feathered Plane.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Prefabs/Screen Space Ray Interactor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Prefabs/Screen Space Ray Interactor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Prefabs/XR Origin (AR Rig).prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Prefabs/XR Origin (AR Rig).prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Scripts.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Scripts/ARContactSpawnTrigger.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Scripts/ARContactSpawnTrigger.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Scripts/ARFeatheredPlaneMeshVisualizer.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Scripts/ARFeatheredPlaneMeshVisualizer.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Scripts/ARInteractorSpawnTrigger.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Scripts/ARInteractorSpawnTrigger.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Shaders.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Shaders/FeatheredPlaneShader.shader"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Shaders/FeatheredPlaneShader.shader.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Textures.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Textures/PlanePatternDot.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/AR Starter Assets/Textures/PlanePatternDot.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/FingerColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/FingerColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/HandEdgeColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/HandEdgeColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/InteractionColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/InteractionColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointBlendShape.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointBlendShape.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointEdgeStrength.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointEdgeStrength.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointHighlightColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointHighlightColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointLocalTransformOffset.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointLocalTransformOffset.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointUniformScaleScale.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/AffordanceThemes/PinchPointUniformScaleScale.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DatumPresets.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DatumPresets/Menu Controller Follow Preset.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DatumPresets/Menu Controller Follow Preset.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DatumPresets/Menu Hands Follow Preset.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DatumPresets/Menu Hands Follow Preset.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DatumPresets/Under Watch Controller Follow Preset.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DatumPresets/Under Watch Controller Follow Preset.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DatumPresets/Under Watch Hands Follow Preset.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DatumPresets/Under Watch Hands Follow Preset.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/Anchor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/Anchor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/Audio.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/Audio.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/BlendShapeValue.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/BlendShapeValue.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/CapsuleScale.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/CapsuleScale.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/ChessPieceColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/ChessPieceColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/LargeScale.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/LargeScale.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/Scale.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/Scale.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/TeleportInteractionColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Affordances/TeleportInteractionColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Animation.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Animation/AnchorFadeScale.anim"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Animation/AnchorFadeScale.anim.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio/AmbientBackgroundNoise.mp3"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio/AmbientBackgroundNoise.mp3.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio/ButtonClick.wav"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio/ButtonClick.wav.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio/ButtonHover.wav"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio/ButtonHover.wav.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio/MainAudioMixer.mixer"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio/MainAudioMixer.mixer.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio/TeleportSelection.wav"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Audio/TeleportSelection.wav.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/AccentButton.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/AccentButton.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ArtSphereShadowCaster.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ArtSphereShadowCaster.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner1.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner1.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner2.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner2.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner3.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner3.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner4.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ArtSphereTransparentInner4.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/BlockingTeleportReticle.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/BlockingTeleportReticle.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Blue Anchor Arrow.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Blue Anchor Arrow.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/BrushedMetal.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/BrushedMetal.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ChessPiece.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ChessPiece.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Chrome.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Chrome.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Controls_Black.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Controls_Black.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentBlue.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentBlue.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentBlueTransparent50.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentBlueTransparent50.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentBlueTransparent75.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentBlueTransparent75.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentLightBlue.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentLightBlue.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentParticles.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentParticles.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentTan.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/EnvironmentTan.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/FrameOutline.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/FrameOutline.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Grid Dark Large.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Grid Dark Large.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Grid Dark Tight.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Grid Dark Tight.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Interactable White.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Interactable White.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ShadowCircular.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/ShadowCircular.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Skybox.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Skybox.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Table Surface.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Table Surface.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Teleport Anchor Base.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Teleport Anchor Base.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Teleport Anchor Blue Glow.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/Teleport Anchor Blue Glow.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/TeleportAnchor.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/TeleportAnchor.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/TeleportReticle.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/TeleportReticle.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/TeleportReticleCenter.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/TeleportReticleCenter.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/UnityLogo.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/UnityLogo.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/VideoTexture.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Materials/VideoTexture.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/AnchorArrow.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/AnchorArrow.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/AnchorBase.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/AnchorBase.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/AnchorFade.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/AnchorFade.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Blocking Reticle Boundary.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Blocking Reticle Boundary.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Chess.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Chess/Chess_Board.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Chess/Chess_Board.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Chess/Chess_Pawn.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Chess/Chess_Pawn.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Environment.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Environment.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/EnvironmentFloorCollider.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/EnvironmentFloorCollider.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/EnvironmentRoofCollider.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/EnvironmentRoofCollider.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Frame.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Frame.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Primitives.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Primitives/Cone.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Primitives/Cone.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Primitives/Cube.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Primitives/Cube.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Primitives/Cylinder.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Primitives/Cylinder.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Primitives/Disc.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Primitives/Disc.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Reticle.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Reticle.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Semisphere.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/Semisphere.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/TeleportAnchorPlatform.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/TeleportAnchorPlatform.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/UnityLogo.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/UnityLogo.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/VirtualTabletop.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Models/VirtualTabletop.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Arrow.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Arrow.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/AudioAffordance.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/AudioAffordance.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Cube.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Cube.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Cylinder.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Cylinder.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Disc.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Disc.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/DiscController.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/DiscController.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/PawnController.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/PawnController.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/PokeButton.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/PokeButton.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/SimpleSocket.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/SimpleSocket.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/SimpleSocketShape.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/SimpleSocketShape.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/TableHandle.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/TableHandle.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Anchor Animated.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Anchor Animated.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Anchor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Anchor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Floor Area Roof.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Floor Area Roof.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Floor Area Rounded.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/Teleport Floor Area Rounded.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/ButtonHandMenu.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/ButtonHandMenu.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/ScrollHandMenu.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/ScrollHandMenu.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/ScrollView.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/ScrollView.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/ScrollViewItem.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/ScrollViewItem.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/TouchPadButton.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/TouchPadButton.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/Tutorial Player.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Prefabs/UI/Tutorial Player.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/ObjectResetPlane.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/ObjectResetPlane.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/PokeBlendShapeAnimator.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/PokeBlendShapeAnimator.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/ToggleGameObject.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/ToggleGameObject.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/TransformSync.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/TransformSync.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/CalloutGazeController.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/CalloutGazeController.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/ResetVideoOnLoop.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/ResetVideoOnLoop.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/TutorialVideoPlayer.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/TutorialVideoPlayer.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/UIComponentToggler.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/UIComponentToggler.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/VideoPlayerRenderTexture.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/VideoPlayerRenderTexture.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/VideoTimeScrubControl.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/UI/VideoTimeScrubControl.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/Utilities.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/Utilities/AnchorVisuals.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/Utilities/AnchorVisuals.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/Utilities/Billboard.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/Utilities/Billboard.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/Utilities/PositionOscillator.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/Utilities/PositionOscillator.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/Utilities/RotationOscillator.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Scripts/Utilities/RotationOscillator.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Settings.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Settings/SampleLightingSettings.lighting"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Settings/SampleLightingSettings.lighting.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Shaders.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Shaders/Grid.shader"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Shaders/Grid.shader.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/AmbientEnvironmentParticle.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/AmbientEnvironmentParticle.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/AnchorGlowGradient.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/AnchorGlowGradient.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/BrushedMetalMetallic.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/BrushedMetalMetallic.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/Circle60x60Horizontal.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/Circle60x60Horizontal.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/Pause.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/Pause.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/Play.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/Play.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/Round Radius 10.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/Round Radius 10.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/ShadowCookie.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/ShadowCookie.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/Skybox_Cube.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/Skybox_Cube.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/UIIconTeleport.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Textures/UIIconTeleport.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Video.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Video/HandLocomotionTutorialVideo.webm"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/DemoAssets/Video/HandLocomotionTutorialVideo.webm.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Editor.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Editor/HandsInteractionDemo.Editor.asmdef"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Editor/HandsInteractionDemo.Editor.asmdef.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Editor/Scripts.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Editor/Scripts/HandsSampleProjectValidation.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandShapes.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandShapes/TeleportModeActivateHandShape.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandShapes/TeleportModeActivateHandShape.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandShapes/TeleportModeCancelHandShape.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandShapes/TeleportModeCancelHandShape.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene.unity"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene.unity.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/LightingData.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/LightingData.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-0_comp_dir.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-0_comp_dir.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-0_comp_light.exr"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-0_comp_light.exr.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-1_comp_dir.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-1_comp_dir.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-1_comp_light.exr"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-1_comp_light.exr.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-2_comp_dir.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-2_comp_dir.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-2_comp_light.exr"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/Lightmap-2_comp_light.exr.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/ReflectionProbe-0.exr"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsDemoScene/ReflectionProbe-0.exr.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsInteractionDemo.asmdef"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/HandsInteractionDemo.asmdef.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/DepthOnly.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/DepthOnly.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/JoystickUISprite.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/JoystickUISprite.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/TeleportNavigatorUI.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/TeleportNavigatorUI.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/Unity_Hand_Dark.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/Unity_Hand_Dark.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/Unity_Hand_Light.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/Unity_Hand_Light.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Materials/Unity_Hand_Medium.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/HandInteractorAffordances.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/HandInteractorAffordances.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/HandMenuRig.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/HandMenuRig.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/HandPokeInteractorAffordances.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/HandPokeInteractorAffordances.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/HandTeleportInteractor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/HandTeleportInteractor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/InteractionAffordance.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/InteractionAffordance.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/LeftHandAndroidXRVisual.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/LeftHandAndroidXRVisual.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/LeftHandQuestVisual.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/LeftHandQuestVisual.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/PinchPointStabilized.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/PinchPointStabilized.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/RightHandAndroidXRVisual.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/RightHandAndroidXRVisual.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/RightHandQuestVisual.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/RightHandQuestVisual.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/XR Origin Hands (XR Rig).prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Prefabs/XR Origin Hands (XR Rig).prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/HandsOneEuroFilterPostProcessor.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/HandsOneEuroFilterPostProcessor.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/HideObjectWhenInteractorBlocked.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/HideObjectWhenInteractorBlocked.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/JoystickPinchHandGesture.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/JoystickPinchHandGesture.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/LocalPositionOffsetAffordanceReceiver.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/LocalPositionOffsetAffordanceReceiver.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/MetaSystemGestureDetector.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/MetaSystemGestureDetector.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/OneEuroFilterVector3.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/OneEuroFilterVector3.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/PinchPointFollow.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/PinchPointFollow.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/PokeGestureDetector.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/PokeGestureDetector.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/ReleaseThresholdButtonReader.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/ReleaseThresholdButtonReader.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/TeleportHandGesture.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/TeleportHandGesture.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/ValueDerivedButtonReader.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/ValueDerivedButtonReader.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/Vector3ScaleAffordanceReceiver.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Scripts/Vector3ScaleAffordanceReceiver.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/DepthOnly.shader"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/DepthOnly.shader.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/RimLight.shadergraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/RimLight.shadergraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs/AllFingerHighlights.shadersubgraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs/AllFingerHighlights.shadersubgraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs/EdgeHighlight.shadersubgraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs/EdgeHighlight.shadersubgraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs/FadeFromCenter.shadersubgraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs/FadeFromCenter.shadersubgraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs/FadeFromCenterNoise.shadersubgraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs/FadeFromCenterNoise.shadersubgraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs/OneFingerHighlight.shadersubgraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Subgraphs/OneFingerHighlight.shadersubgraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Unity_Hand.shadergraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Unity_Hand.shadergraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Unity_Hand_HDR.shadergraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Unity_Hand_HDR.shadergraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Unity_Hand_Noise.shadergraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Unity_Hand_Noise.shadergraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Unity_Hand_Noise_HDR.shadergraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Shaders/Unity_Hand_Noise_HDR.shadergraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Textures.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Textures/CombinedFingerIndexHighlight_M.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Textures/CombinedFingerIndexHighlight_M.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Textures/TeleportNavigatorUI.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Hands Interaction Demo/Textures/TeleportNavigatorUI.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes/ControllerPokeSphereScale.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes/ControllerPokeSphereScale.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes/HighlightInteractionColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes/HighlightInteractionColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes/HighlightStrengthInteraction.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes/HighlightStrengthInteraction.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes/PokeSphereColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes/PokeSphereColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes/PokeSphereInteraction.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/AffordanceThemes/PokeSphereInteraction.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Animations.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Animations/ArrowBounce.anim"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Animations/ArrowBounce.anim.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Animations/Climb Teleport Arrow.controller"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Animations/Climb Teleport Arrow.controller.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/AffordanceThemes.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/AffordanceThemes/InteractionColor.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/AffordanceThemes/InteractionColor.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Audio.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Audio/Button Pop.wav"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Audio/Button Pop.wav.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Materials.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Materials/Concrete Dark Blue.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Materials/Concrete Dark Blue.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Materials/Concrete Grey.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Materials/Concrete Grey.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Materials/Concrete Light Blue.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Materials/Concrete Light Blue.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Materials/Lit White.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Materials/Lit White.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Blaster.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Blaster.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Blaster_Long.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Blaster_Long.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Cylinder.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Cylinder.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Pyramid.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Pyramid.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Tapered_Cylinder.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Tapered_Cylinder.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Torus.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Torus.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Torus_Cut.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/Primitive_Torus_Cut.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/PushButton.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Models/PushButton.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/Climb Sample.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/Climb Sample.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/ClimbTeleportReticle.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/ClimbTeleportReticle.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/Climbing Wall.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/Climbing Wall.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/Ladder.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/Ladder.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/Multi Floor Ladder.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/Multi Floor Ladder.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/Single Floor Ladder.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Climb/Single Floor Ladder.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Far Grab Samples.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Far Grab Samples.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Gaze Interactables.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Gaze Interactables.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/GazeActivationZone.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/GazeActivationZone.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables Sample.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables Sample.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Blaser-Long.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Blaser-Long.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Blaser.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Blaser.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Confetti.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Confetti.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Cube.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Cube.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Cylinder.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Cylinder.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Pot.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Pot.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Push Button.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Push Button.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Torus-Cut.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Torus-Cut.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Torus.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Interactables/Torus.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/InteractionAffordance.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/InteractionAffordance.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Poke Interactions Sample.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Poke Interactions Sample.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Teleport.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Teleport/Snap Teleport Anchor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Teleport/Snap Teleport Anchor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Teleport/Teleport Anchor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Teleport/Teleport Anchor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Teleport/Teleport Area.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Teleport/Teleport Area.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Teleportation Environment.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/Teleportation Environment.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI Sample.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI Sample.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Dropdown.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Dropdown.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Icon Button.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Icon Button.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Icon Toggle.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Icon Toggle.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Interactive Controls.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Interactive Controls.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/MinMaxSlider.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/MinMaxSlider.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/ModalSingleButton.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/ModalSingleButton.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Scroll UI Sample.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Scroll UI Sample.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Text Toggle.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/Text Toggle.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/TextButton.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Prefabs/UI/TextButton.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Scripts.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Scripts/IncrementUIText.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Scripts/IncrementUIText.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Scripts/MultiAnchorTeleportReticle.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Scripts/MultiAnchorTeleportReticle.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Settings.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Settings/GazeTeleportAnchorFilter.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Settings/GazeTeleportAnchorFilter.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Settings/TeleportDestinationSettings.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Settings/TeleportDestinationSettings.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Asset.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Asset.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Checkmark.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Checkmark.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Circle_60x60 Outline 4.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Circle_60x60 Outline 4.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Circle_60x60_Horizontal.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Circle_60x60_Horizontal.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Forward.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Forward.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/LegibilityMask.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/LegibilityMask.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Round Radius 4 Outline.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Round Radius 4 Outline.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Round Radius 4.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Sprites/Round Radius 4.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Textures.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Textures/Concrete_Albedo.tif"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Textures/Concrete_Albedo.tif.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Textures/Concrete_Metallic.tif"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Textures/Concrete_Metallic.tif.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Textures/Concrete_Normal.tif"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoAssets/Textures/Concrete_Normal.tif.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoScene.unity"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/DemoScene.unity.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Editor.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Editor/Scripts.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Editor/StarterAssets.Editor.asmdef"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Editor/StarterAssets.Editor.asmdef.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Filters.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Filters/AnyGazedAtTeleportAnchorFilter.asset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Controller_Grey.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Controller_Grey.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Controller_White.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Controller_White.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Flat Blue.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Flat Blue.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/FresnelHighlight.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/FresnelHighlight.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Interactable.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Interactable.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Telport Anchor.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Telport Anchor.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Telport Area.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/Telport Area.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/UI-NoZTest.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Materials/UI-NoZTest.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/BlinkVisual.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/BlinkVisual.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/Pinch_Pointer_LOD0.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/Pinch_Pointer_LOD0.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/Primitive_Cylinder.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/Primitive_Cylinder.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/Primitive_Wedge.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/Primitive_Wedge.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/Reticle_Torus.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/Reticle_Torus.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/UniversalController.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Models/UniversalController.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Affordances.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Affordances/HighlightInteractionAffordance.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Affordances/HighlightInteractionAffordance.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Affordances/PokePointerAffordance.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Affordances/PokePointerAffordance.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Controllers.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Controllers/XR Controller Left.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Controllers/XR Controller Right.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Direct Interactor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Left_NearFarInteractor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Right_NearFarInteractor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Interactors/Teleport Interactor.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Permissions Manager.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Permissions Manager.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Teleport.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Teleport/Climb Teleport Arrow.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Teleport/Climb Teleport Arrow.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/Teleport/Directional Teleport Reticle.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/XR Origin (XR Rig).prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Prefabs/XR Origin (XR Rig).prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Continuous Move.preset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Continuous Move.preset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Continuous Turn.preset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Continuous Turn.preset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Dynamic Move.preset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Dynamic Move.preset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Left Controller InputActionManager.preset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Left Controller InputActionManager.preset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Left Grab Move.preset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Left Grab Move.preset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Right Controller InputActionManager.preset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Right Controller InputActionManager.preset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Right Grab Move.preset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Right Grab Move.preset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Snap Turn.preset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default Snap Turn.preset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default XR UI Input Module.preset"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Presets/XRI Default XR UI Input Module.preset.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ClimbTeleportDestinationIndicator.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ControllerAnimator.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ControllerAnimator.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ControllerInputActionManager.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ControllerInputActionManager.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/DestroySelf.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/DestroySelf.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/DynamicMoveProvider.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/DynamicMoveProvider.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/GazeInputManager.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/GazeInputManager.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/MaterialPipelineHandler.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/MaterialPipelineHandler.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ObjectSpawner.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ObjectSpawner.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/PermissionsManager.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/PermissionsManager.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/PlatformUnderstanding.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/PlatformUnderstanding.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/RotationAxisLockGrabTransformer.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/TeleportVolumeAnchorAffordanceStateLink.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ToggleColorToggler.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ToggleColorToggler.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ToggleComponentZone.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/ToggleComponentZone.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/XRPokeFollowAffordance.cs"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Scripts/XRPokeFollowAffordance.cs.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders/BiRP_Fresnel.shader"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders/BiRP_Fresnel.shader.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders/Interactable.shadergraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders/Interactable.shadergraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders/UI-NoZTest.shader"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders/UI-NoZTest.shader.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders/Unlit_Fresnel.shadergraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders/Unlit_Fresnel.shadergraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Shaders/Unlit_ShaderGraph.shadergraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/StarterAssets.asmdef"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/StarterAssets.asmdef.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Textures.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Textures/DefaultMaterial_AO.png"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/Textures/DefaultMaterial_AO.png.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette/TunnelingVignette.mat"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette/TunnelingVignette.mat.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette/TunnelingVignette.prefab"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette/TunnelingVignette.prefab.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette/TunnelingVignette.shader"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette/TunnelingVignette.shader.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette/TunnelingVignetteHemisphere.fbx"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette/TunnelingVignetteHemisphere.fbx.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette/TunnelingVignetteSG.shadergraph"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/TunnelingVignette/TunnelingVignetteSG.shadergraph.meta"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/XRI Default Input Actions.inputactions"
+A  "Assets/Samples/XR Interaction Toolkit/3.5.1/Starter Assets/XRI Default Input Actions.inputactions.meta"
+A  Assets/Scenes.meta
+A  Assets/Scenes/SampleScene.meta
+A  Assets/Scenes/SampleScene.unity
+A  Assets/Scenes/SampleScene.unity.meta
+A  Assets/Scenes/SampleScene/LightingData.asset
+A  Assets/Scenes/SampleScene/LightingData.asset.meta
+A  Assets/Scenes/SampleScene/ReflectionProbe-0.exr
+A  Assets/Scenes/SampleScene/ReflectionProbe-0.exr.meta
+A  Assets/Settings.meta
+A  "Assets/Settings/Project Configuration.meta"
+A  "Assets/Settings/Project Configuration/Balanced URP Renderer Config.asset"
+A  "Assets/Settings/Project Configuration/Balanced URP Renderer Config.asset.meta"
+A  "Assets/Settings/Project Configuration/InputSystem.inputsettings.asset"
+A  "Assets/Settings/Project Configuration/InputSystem.inputsettings.asset.meta"
+A  "Assets/Settings/Project Configuration/Performant URP Renderer Config.asset"
+A  "Assets/Settings/Project Configuration/Performant URP Renderer Config.asset.meta"
+A  "Assets/Settings/Project Configuration/Standalone Balanced Preset.asset"
+A  "Assets/Settings/Project Configuration/Standalone Balanced Preset.asset.meta"
+A  "Assets/Settings/Project Configuration/Standalone Performant Preset.asset"
+A  "Assets/Settings/Project Configuration/Standalone Performant Preset.asset.meta"
+A  "Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset"
+A  "Assets/Settings/Project Configuration/UniversalRenderPipelineGlobalSettings.asset.meta"
+A  Assets/Settings/SampleSceneProfile.asset
+A  Assets/Settings/SampleSceneProfile.asset.meta
+A  "Assets/TextMesh Pro.meta"
+A  "Assets/TextMesh Pro/Fonts.meta"
+A  "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt"
+A  "Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta"
+A  "Assets/TextMesh Pro/Fonts/LiberationSans.ttf"
+A  "Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta"
+A  "Assets/TextMesh Pro/Resources.meta"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials.meta"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset"
+A  "Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta"
+A  "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt"
+A  "Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta"
+A  "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt"
+A  "Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta"
+A  "Assets/TextMesh Pro/Resources/Style Sheets.meta"
+A  "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset"
+A  "Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta"
+A  "Assets/TextMesh Pro/Resources/TMP Settings.asset"
+A  "Assets/TextMesh Pro/Resources/TMP Settings.asset.meta"
+A  "Assets/TextMesh Pro/Shaders.meta"
+A  "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl"
+A  "Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP LIT.shadergraph.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-HDRP UNLIT.shadergraph.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Lit.shadergraph.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF-URP Unlit.shadergraph.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMP_Sprite.shader"
+A  "Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta"
+A  "Assets/TextMesh Pro/Shaders/TMPro.cginc"
+A  "Assets/TextMesh Pro/Shaders/TMPro.cginc.meta"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc"
+A  "Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta"
+A  Assets/XR.meta
+A  Assets/XR/Loaders.meta
+A  Assets/XR/Loaders/OpenXRLoader.asset
+A  Assets/XR/Loaders/OpenXRLoader.asset.meta
+A  Assets/XR/Loaders/SimulationLoader.asset
+A  Assets/XR/Loaders/SimulationLoader.asset.meta
+A  Assets/XR/Resources.meta
+A  Assets/XR/Resources/XRSimulationRuntimeSettings.asset
+A  Assets/XR/Resources/XRSimulationRuntimeSettings.asset.meta
+A  Assets/XR/Settings.meta
+A  "Assets/XR/Settings/OpenXR Editor Settings.asset"
+A  "Assets/XR/Settings/OpenXR Editor Settings.asset.meta"
+AM Assets/XR/Settings/OpenXRPackageSettings.asset
+A  Assets/XR/Settings/OpenXRPackageSettings.asset.meta
+A  Assets/XR/Settings/XRSimulationSettings.asset
+A  Assets/XR/Settings/XRSimulationSettings.asset.meta
+A  Assets/XR/UserSimulationSettings.meta
+A  Assets/XR/UserSimulationSettings/Resources.meta
+A  Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset
+A  Assets/XR/UserSimulationSettings/Resources/XRSimulationPreferences.asset.meta
+A  Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset
+A  Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset.meta
+A  Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+A  Assets/XR/XRGeneralSettingsPerBuildTarget.asset.meta
+A  Assets/XRI.meta
+A  Assets/XRI/Settings.meta
+A  Assets/XRI/Settings/Resources.meta
+A  Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+A  Assets/XRI/Settings/Resources/InteractionLayerSettings.asset.meta
+A  Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset
+A  Assets/XRI/Settings/Resources/XRDeviceSimulatorSettings.asset.meta
+A  Assets/XRI/Settings/Resources/XRInteractionRuntimeSettings.asset
+A  Assets/XRI/Settings/Resources/XRInteractionRuntimeSettings.asset.meta
+A  Assets/XRI/Settings/XRInteractionEditorSettings.asset
+A  Assets/XRI/Settings/XRInteractionEditorSettings.asset.meta
+A  Packages/manifest.json
+A  Packages/packages-lock.json
+A  ProjectSettings/AndroidXRSettingsManager.asset
+A  ProjectSettings/AudioManager.asset
+A  ProjectSettings/BurstAotSettings_Android.json
+A  ProjectSettings/BurstAotSettings_StandaloneWindows.json
+A  ProjectSettings/BurstAotSettings_WSAPlayer.json
+A  ProjectSettings/ClusterInputManager.asset
+A  ProjectSettings/CommonBurstAotSettings.json
+A  ProjectSettings/DynamicsManager.asset
+A  ProjectSettings/EditorBuildSettings.asset
+A  ProjectSettings/EditorSettings.asset
+A  ProjectSettings/GraphicsSettings.asset
+A  ProjectSettings/InputManager.asset
+A  ProjectSettings/MemorySettings.asset
+A  ProjectSettings/MultiplayerManager.asset
+A  ProjectSettings/NavMeshAreas.asset
+A  ProjectSettings/Physics2DSettings.asset
+A  ProjectSettings/PhysicsCoreProjectSettings2D.asset
+A  ProjectSettings/PresetManager.asset
+A  ProjectSettings/ProjectAuditorSettings.asset
+AM ProjectSettings/ProjectSettings.asset
+A  ProjectSettings/ProjectVersion.txt
+A  ProjectSettings/QualitySettings.asset
+A  ProjectSettings/SceneTemplateSettings.json
+A  ProjectSettings/ShaderGraphSettings.asset
+A  ProjectSettings/TagManager.asset
+A  ProjectSettings/TimeManager.asset
+A  ProjectSettings/TimelineSettings.asset
+A  ProjectSettings/URPProjectSettings.asset
+A  ProjectSettings/UnityConnectSettings.asset
+A  ProjectSettings/VFXManager.asset
+A  ProjectSettings/VersionControlSettings.asset
+A  ProjectSettings/XRPackageSettings.asset
+A  ProjectSettings/XRSettings.asset
+?? Design/evidence/baseline-hashes.json
+?? ProjectSettings/PackageManagerSettings.asset
+?? ProjectSettings/Packages/com.unity.learn.iet-framework/Settings.json
+?? ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json
