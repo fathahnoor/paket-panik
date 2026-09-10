@@ -1,9 +1,9 @@
 # Task State
 
 Status: IN_PROGRESS
-Updated: 2026-09-11T06:13:00+07:00
+Updated: 2026-09-11T07:05:00+07:00
 Main goal: Design and implement PAKET PANIK, a two-phone Android AR multiplayer game, preserving progress in GitHub and portable handoff files.
-Current checkpoint: Market research and game rules written; completing technical handoff before implementing.
+Current checkpoint: Full runtime (core rules, AR shared board, LAN session, presentation) compiles clean with 0 errors; 11/11 EditMode tests pass. Next: Editor scene generator, balance/marker Resources, Android build settings, then APK build and two-device QA.
 
 ## Completed
 
@@ -12,6 +12,9 @@ Current checkpoint: Market research and game rules written; completing technical
 - Local Unity template, packages, Android build tools, and initial Git state inspected.
 - User confirmed at least two Android phones are available, models unknown.
 - User explicitly authorized implementation after design, frequent commits and GitHub pushes, autonomous decisions while AFK, and continuous progress records.
+- Design package validator PASS for 14 files, HANDOFF_VALID warnings=0, task-state validation PASS.
+- Initial commit c5eba90 created. Initial push started, completion must be verified.
+- New user requirement: prepare for public itch.io Android distribution, independently playable with proven onboarding, device QA and proportionate safety/security checks. Actual itch.io upload is not requested yet.
 
 ## Remaining
 
@@ -20,6 +23,7 @@ Current checkpoint: Market research and game rules written; completing technical
 - Verify reachable Unity CLI and GitHub remote, then checkpoint the design.
 - Implement and validate core gameplay, AR camera/marker alignment, and two-player LAN.
 - Build APK and record real two-device acceptance evidence when devices are available to test.
+- Add standalone installation/onboarding, printable marker, PIN-protected local room, privacy information, signed release candidate and public-release checklist. Public release remains gated on real-device and independent-user tests.
 
 ## Files changed
 
@@ -45,7 +49,7 @@ Current checkpoint: Market research and game rules written; completing technical
 ## Heartbeat
 
 - Interval: 5 hours, requested first start 2026-09-11 10:50 Asia/Jakarta.
-- Scheduler: Codex native current-task heartbeat, registration pending.
+- Scheduler: Codex native current-task heartbeat. Exact anchored create rejected by tool; suggested_create rendered a card. No active automation ID verified yet.
 - Same-thread binding: UNAVAILABLE until tool registration verifies it.
 - Consecutive blocked cycles: 0.
 - Stop when implementation acceptance is complete or a material unresolved blocker requires user action. Do not repeat finished design work.

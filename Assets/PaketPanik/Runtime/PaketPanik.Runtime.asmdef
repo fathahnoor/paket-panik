@@ -1,0 +1,1 @@
+{"name":"PaketPanik.Runtime","rootNamespace":"PaketPanik","references":["PaketPanik.Core","Unity.Netcode.Runtime","Unity.Collections","Unity.Networking.Transport","Unity.XR.ARFoundation","Unity.XR.ARSubsystems","Unity.XR.CoreUtils","Unity.InputSystem","Unity.ugui"],"autoReferenced":true}

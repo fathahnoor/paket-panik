@@ -1,0 +1,113 @@
+{
+  "success": true,
+  "command": "command run_tests",
+  "data": {
+    "command": "run_tests",
+    "parameters": {
+      "mode": "editor",
+      "filter": "GameRulesTests"
+    },
+    "result": {
+      "Summary": {
+        "Total": 11,
+        "Passed": 11,
+        "Failed": 0,
+        "Skipped": 0,
+        "Inconclusive": 0
+      },
+      "Results": [
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.BiteHappensOnceAndNeverMakesNegativeScore",
+          "Status": "Passed",
+          "Duration": 0.0001493,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.EmptyBatteryRequiresRelease",
+          "Status": "Passed",
+          "Duration": 0.0000606,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.ItemsExpireAndGoldIsEveryFourthSpawn",
+          "Status": "Passed",
+          "Duration": 0.0000487,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.MissingInputPausesAndDoesNotAdvanceTime",
+          "Status": "Passed",
+          "Duration": 0.0000348,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.OldRoundAndDuplicateSequenceRejected",
+          "Status": "Passed",
+          "Duration": 0.0000284,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.PauseNeedsBothReadyAndFreshTracking",
+          "Status": "Passed",
+          "Duration": 0.0000322,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.ReleasingHoldClearsLockAndProgress",
+          "Status": "Passed",
+          "Duration": 0.0000411,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.SameItemTwoPlayersAwardsOnce",
+          "Status": "Passed",
+          "Duration": 0.0000334,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.SealRequiresQuotaAndBothPlayers",
+          "Status": "Passed",
+          "Duration": 0.000041,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.SeparateArOriginsGiveSameBoardPosition",
+          "Status": "Passed",
+          "Duration": 0.0000434,
+          "Message": null,
+          "StackTrace": null
+        },
+        {
+          "FullName": "PaketPanik.Tests.GameRulesTests.TimeoutResolvesQuota",
+          "Status": "Passed",
+          "Duration": 0.0000555,
+          "Message": null,
+          "StackTrace": null
+        }
+      ],
+      "Duration": 3.05,
+      "StatusPath": null,
+      "Mode": "EditMode",
+      "FilterApplied": "testname: GameRulesTests",
+      "success": true,
+      "result": null
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\DevPath\\260911_demo-mr"
+    },
+    "success": true
+  },
+  "errors": [],
+  "warnings": []
+}
