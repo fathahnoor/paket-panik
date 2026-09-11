@@ -1,0 +1,45 @@
+{
+  "capturedAt": "2026-09-11T08:12:00+07:00",
+  "agent": "OpenCode / DeepSeek V4.1 Flash",
+  "unity": "6000.6.0f1",
+  "target": "Android",
+  "apk": {
+    "path": "Builds/Android/PaketPanik.apk",
+    "sizeBytes": 64442881,
+    "sha256": "0E52B3E29AEF53942B2C8F9A41E3DF2BD0CB046072D1B67649383189534A27B6",
+    "package": "com.fathahnoor.paketpanik",
+    "versionName": "0.1.0",
+    "versionCode": 1,
+    "minSdk": 26,
+    "targetSdk": 34,
+    "nativeCode": "arm64-v8a",
+    "scriptingBackend": "IL2CPP",
+    "graphicsApi": "OpenGLES3",
+    "orientation": "portrait"
+  },
+  "manifest": {
+    "permissions": ["android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.CAMERA"],
+    "features": ["android.hardware.camera.ar (required)", "com.google.ar.core.depth", "android.hardware.camera", "android.hardware.screen.portrait"],
+    "noMicrophone": true,
+    "noLocation": true,
+    "noStorage": true
+  },
+  "buildReport": {
+    "buildId": "build_0bfe9da3942f",
+    "status": "completed",
+    "result": "Succeeded",
+    "buildTimeMs": 1400240,
+    "totalWarnings": 9,
+    "totalErrors": 0,
+    "warningsSummary": [
+      "IL2CPP TMP methods split into own cpp (informational)",
+      "Pre-baked collision info on template mesh Sitting_Cylinder_Anim",
+      "TextMeshPro shader deprecation pragma",
+      "CS0618 FindFirstObjectByType in PanicPresentation (fixed after build)",
+      "Diagnostics Data vs Debug Symbols note",
+      "Pipeline Runtime disabled in player builds (editor-only tooling)",
+      "Immutable package note: ARCore TestReferenceImageLibrary.asset churn"
+    ]
+  },
+  "deviceTests": "NOT RUN - no Android device attached at build time; no tracking, performance, or two-device evidence claimed"
+}

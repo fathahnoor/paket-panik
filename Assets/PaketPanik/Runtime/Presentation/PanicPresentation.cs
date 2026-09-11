@@ -76,7 +76,7 @@ namespace PaketPanik
             canvas.renderMode = RenderMode.ScreenSpaceOverlay;
             var scaler = canvas.GetComponent<CanvasScaler>(); scaler.uiScaleMode = CanvasScaler.ScaleMode.ScaleWithScreenSize; scaler.referenceResolution = new Vector2(1080, 1920); scaler.matchWidthOrHeight = .5f;
             safe = new GameObject("SafeArea", typeof(RectTransform)).GetComponent<RectTransform>(); safe.SetParent(canvas.transform, false);
-            if (!FindFirstObjectByType<EventSystem>()) new GameObject("EventSystem", typeof(EventSystem), typeof(InputSystemUIInputModule));
+            if (!FindAnyObjectByType<EventSystem>()) new GameObject("EventSystem", typeof(EventSystem), typeof(InputSystemUIInputModule));
             menu = Panel("Welcome", safe, new Vector2(920, 1450), new Vector2(.5f, .5f), Vector2.zero, ink);
             var layout = menu.AddComponent<VerticalLayoutGroup>(); layout.padding = new RectOffset(50, 50, 35, 35); layout.spacing = 16; layout.childControlHeight = true; layout.childForceExpandHeight = false;
             Line(menu.transform, "ANDROID AR / 2 PEMAIN", 25, lilac, 55);
