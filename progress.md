@@ -1,5 +1,13 @@
 # Progress
 
+## 2026-09-12 05:23 WIB, resumed in Codex
+
+- Recovered intact work after quota interruption. Unity restarted into SampleScene; checked it was not dirty and opened PaketPanik through Unity CLI. Verified Inter reference and simulator=false in the saved scene.
+- Current compile error flag false; reran all 22 EditMode cases, all passed. Reused yesterday's 19 Play UI checks and 7 localhost/raycast checks tied to unchanged source.
+- Committed remaining source and UI evidence as 9d3f4d7. There have been zero pushes in this UI task.
+- Started build_1a41a2aa752a for Android, explicit PaketPanik scene, output Builds/Android/PaketPanik.apk. Previous APK preserved as PaketPanik-before-uiux.apk.
+- Next: verify build completion, hash and manifest; update final docs/handoff; local final commit; push exactly once and verify remote.
+
 ## 2026-09-11 UI/UX refresh in Codex
 
 - Latest user request: substantially improve UI/UX after OpenCode implementation, frequent local commits, one push only when finished.
@@ -48,5 +56,4 @@ Every implementation checkpoint must append its file changes, exact verification
 - XR Simulation Editor disiapkan (`SimulationPaketPanik.prefab` memakai marker kita + pose kamera menghadap marker). Environment dan marker ter-render di Game view; kalibrasi SharedBoard pernah sukses sekali; discovery gambar tidak konsisten. Bukan pengganti uji perangkat.
 - Commit lokal sesi ini: 272a77e, 61c95ff, 6db4a88, 5072070, 9e0dedb, c2a858b (+ fix UI/CS0618). Push ditunda ke ~10:45 sesuai permintaan pengguna (menghindari popup kredensial).
 - Next: rebuild APK dengan kode final (sedang berjalan), finalisasi Evidence/build-android.json (hash baru), update TASK_STATE/HANDOFF, lalu push semua commit dan uji dua perangkat oleh pengguna dengan checklist.
-
 

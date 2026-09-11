@@ -1,5 +1,15 @@
 # Findings
 
+## UI/UX refresh, 2026-09-11 to 2026-09-12
+
+- Presentation now separates PanicInterface (screens/input feedback), PanicSurface (rounded vector Graphic), and PanicPresentation (world/audio/intent bridge). Inter font is assigned through the scene and generator using the existing MR template asset.
+- A custom MaskableGraphic needs RequireComponent(CanvasRenderer). Use onValidateInput for digit-only legacy InputField validation; this UGUI version has no CharacterValidation.Digit.
+- Minute/second display must derive from a single rounded total; loot progress is elapsed hold time divided by each item type's configured duration.
+- HoldControl owns one pointer, releases on exit/disable, and is explicitly cancelled by a modal. Connected excludes intentional shutdown so leaving immediately returns home; Closing gates new connections until NGO shutdown completes.
+- Use Tools/UIUXReview.cs through Unity CLI run_script. Setup configures an actual portrait Game View before Capture writes ScreenCapture output under Evidence/UIUX. Runtime fixture changes are Play Mode only and are never saved into the scene.
+- Current UI evidence covers portrait, compact and emulated-inset layouts. Core tests, UI fixtures, localhost checks, Android build and real-device AR/LAN QA are different claims. Physical tests and independent-player onboarding remain unverified.
+- Existing AR marker cache, simulation settings and preloaded-asset changes predate this task. Preserve them and exclude them from UI commits. Android build may regenerate marker cache/preloaded assets.
+
 - Pilihan tema berasal dari sumber pasar dalam Design/MARKET_RESEARCH.md. Proyek/personal interests pengguna tidak dipakai sebagai kriteria tema.
 - Template MR sekarang dapat dipakai. AR Foundation sudah terpasang tetapi provider Android mengarah OpenXR. Jalur handphone memerlukan ARCore, scene baru, touch input dan camera background.
 - Unity 6000.6.0f1 dan Pipeline aktif pada port 7800 terverifikasi melalui CLI dengan akses akun host. Akses sandbox saja tidak melihat instance; ini keterbatasan akses, bukan bukti Editor mati.
