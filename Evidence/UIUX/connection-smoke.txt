@@ -1,0 +1,8 @@
+PASS scene carries Inter font into builds
+PASS real graphic raycast reaches primary button
+PASS PIN validator accepts digits only
+PASS joining locks duplicate submission and fields
+PASS joining has visible pending feedback
+PASS cancel pending connection returns home
+PASS connection actions re-enable after shutdown
+Localhost pending/cancel path only, not a two-device network test.

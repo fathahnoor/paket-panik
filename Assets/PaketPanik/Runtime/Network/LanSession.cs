@@ -30,8 +30,9 @@ namespace PaketPanik
         public GameState State => manager != null && manager.IsHost ? rules.State : remoteState;
         public int LocalSlot => manager != null && manager.IsHost ? 0 : 1;
         public bool Hosting => manager != null && manager.IsHost;
-        public bool Connected => manager != null && manager.IsConnectedClient;
+        public bool Connected => !intentionalStop && manager != null && manager.IsConnectedClient;
         public bool Connecting => connecting;
+        public bool Closing => manager != null && manager.ShutdownInProgress;
         public int PlayerCount => Hosting ? manager.ConnectedClientsIds.Count : remoteCount;
         public string Status { get; private set; } = "Buat meja atau gabung teman.";
         public string Pin { get; private set; } = "";

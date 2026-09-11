@@ -1,0 +1,20 @@
+PASS separate join page
+PASS invalid IP has actionable inline error
+PASS invalid PIN has actionable inline error
+PASS guide blocks game input
+PASS guide scrolls vertically
+PASS guide closes
+PASS real local Host opens
+PASS cannot start with one player
+PASS ready requires tracking
+PASS playing exposes thumb controls
+PASS hold starts on pointer down
+PASS hide clears held input in Play Mode
+PASS leave confirmation cancels held input
+PASS modal sends idle intent
+PASS cancel leave keeps table
+PASS tracking pause hides actions and offers ready
+PASS win shows receipt
+PASS replay still requires both players
+PASS leave returns to welcome
+UI fixture coverage only. Two-device AR/network tests NOT RUN.

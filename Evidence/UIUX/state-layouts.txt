@@ -1,0 +1,32 @@
+Lobby: screen=1080x1920 safe=(x:0.00, y:0.00, width:1080.00, height:1920.00)
+Text height overflows=0
+NOTE: Editor UI evidence only; no physical AR/LAN validation.
+
+Countdown: screen=1080x1920 safe=(x:0.00, y:0.00, width:1080.00, height:1920.00)
+Text height overflows=0
+NOTE: Editor UI evidence only; no physical AR/LAN validation.
+
+Playing: screen=1080x1920 safe=(x:0.00, y:0.00, width:1080.00, height:1920.00)
+Text height overflows=0
+NOTE: Editor UI evidence only; no physical AR/LAN validation.
+
+Paused: screen=1080x1920 safe=(x:0.00, y:0.00, width:1080.00, height:1920.00)
+Text height overflows=0
+NOTE: Editor UI evidence only; no physical AR/LAN validation.
+
+Won: screen=1080x1920 safe=(x:0.00, y:0.00, width:1080.00, height:1920.00)
+Text height overflows=0
+NOTE: Editor UI evidence only; no physical AR/LAN validation.
+
+Lost: screen=1080x1920 safe=(x:0.00, y:0.00, width:1080.00, height:1920.00)
+Text height overflows=0
+NOTE: Editor UI evidence only; no physical AR/LAN validation.
+
+Aborted: screen=1080x1920 safe=(x:0.00, y:0.00, width:1080.00, height:1920.00)
+Text height overflows=0
+NOTE: Editor UI evidence only; no physical AR/LAN validation.
+
+Guide: screen=1080x1920 safe=(x:0.00, y:0.00, width:1080.00, height:1920.00)
+Text height overflows=0
+NOTE: Editor UI evidence only; no physical AR/LAN validation.
+

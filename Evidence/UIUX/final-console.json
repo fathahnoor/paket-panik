@@ -1,0 +1,25 @@
+{
+  "success": true,
+  "command": "command console",
+  "data": {
+    "command": "console",
+    "parameters": {
+      "level": "error",
+      "since": "5845"
+    },
+    "result": {
+      "entries": [],
+      "cursor": 5850,
+      "returned": 0,
+      "dropped": false
+    },
+    "target": {
+      "host": "127.0.0.1",
+      "port": 7800,
+      "projectPath": "C:\\DevPath\\260911_demo-mr"
+    },
+    "success": true
+  },
+  "errors": [],
+  "warnings": []
+}

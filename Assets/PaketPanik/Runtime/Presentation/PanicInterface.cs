@@ -124,7 +124,7 @@ namespace PaketPanik
             Txt(content, "PIN MEJA", 25, Paper, new Vector2(940, 50), new Vector2(0, -623), true, true);
             pinInput = Field(content, "6 angka", new Vector2(0, -710), 48, 6);
             pinInput.contentType = InputField.ContentType.IntegerNumber; pinInput.keyboardType = TouchScreenKeyboardType.NumberPad;
-            pinInput.characterValidation = InputField.CharacterValidation.Digit;
+            pinInput.onValidateInput = (text, index, ch) => ch >= '0' && ch <= '9' ? ch : '\0';
             joinSubmit = Btn(content, "Gabung sekarang     >", new Vector2(940, 124), new Vector2(0, -861), Lime, Ink, JoinRoom);
             joinSubmitText = joinSubmit.GetComponentInChildren<Text>();
             joinStatus = Txt(content, "", 28, Coral, new Vector2(930, 150), new Vector2(0, -1015));
@@ -165,6 +165,7 @@ namespace PaketPanik
             score = Txt(card.transform, "", 60, Paper, new Vector2(440, 86), new Vector2(-232, 33), true, false, TextAnchor.MiddleLeft);
             timer = Txt(card.transform, "", 55, Yellow, new Vector2(240, 86), new Vector2(313, 62), true);
             angerText = Txt(card.transform, "", 23, Coral, new Vector2(540, 40), new Vector2(-181, -39), true, false, TextAnchor.MiddleLeft);
+            Txt(card.transform, "GIGITAN", 22, Muted, new Vector2(220, 40), new Vector2(322, -39), true);
             angerFill = Meter(card.transform, new Vector2(602, 16), new Vector2(-151, -83), Coral);
             for (int i = 0; i < 3; i++)
             {
@@ -236,14 +237,14 @@ namespace PaketPanik
             backButton.GetComponentInChildren<Text>().text = connected ? "Keluar" : "Kembali";
             helpButton.gameObject.SetActive(!connected || preparing || finished);
             toast.SetActive(Time.unscaledTime < toastUntil);
-            hostButton.interactable = !session.Connecting;
-            joinSubmit.interactable = !session.Connecting;
-            addressInput.interactable = pinInput.interactable = !session.Connecting;
+            hostButton.interactable = !session.Connecting && !session.Closing;
+            joinSubmit.interactable = !session.Connecting && !session.Closing;
+            addressInput.interactable = pinInput.interactable = !session.Connecting && !session.Closing;
             joinSubmitText.text = session.Connecting ? "Menghubungkan..." : "Gabung sekarang     >";
             if (lastSessionStatus != session.Status) { formError = ""; lastSessionStatus = session.Status; }
             joinStatus.text = formError.Length > 0 ? formError : joinAttempted ? session.Status : "";
             joinStatus.color = session.Connecting ? Muted : Coral;
-            homeStatus.text = session.Status == "Buat meja atau gabung teman." ? "" : session.Status;
+            homeStatus.text = session.Closing ? "Menutup meja..." : session.Status == "Buat meja atau gabung teman." ? "" : session.Status;
             if (!connected) return;
 
             var player = state.players[session.LocalSlot]; var friend = state.players[1 - session.LocalSlot];
@@ -315,10 +316,11 @@ namespace PaketPanik
 
         private void UpdateResults(GameState state, bool bothReady)
         {
-            resultTitle.text = state.phase == GamePhase.Won ? "PAKET\nDISELAMATKAN!" : state.phase == GamePhase.Lost ? "YAH,\nKENA GIGIT." : "PENGIRIMAN\nTERPUTUS.";
-            resultBody.text = state.phase == GamePhase.Won ? "Kerja sama kalian boleh juga.\nBerani ambil lebih banyak di ronde berikutnya?" : state.reason;
+            resultTitle.text = state.phase == GamePhase.Won ? "PAKET\nDISELAMATKAN!" : state.phase == GamePhase.Lost ? "PAKET\nBALIK LAGI." : "PENGIRIMAN\nTERPUTUS.";
+            resultBody.text = state.phase == GamePhase.Won ? "Kerja sama kalian boleh juga.\nBerani ambil lebih banyak di ronde berikutnya?" :
+                state.phase == GamePhase.Lost ? (state.bites >= session.Config.bite.maximumBites ? "Tiga gigitan. Paketnya terlalu galak!\nCoba gantian menjaga lebih sering." : "Waktu habis sebelum target tercapai.\nCoba gantian lebih cepat!") : state.reason;
             resultScore.text = state.score.ToString("00");
-            resultStats.text = "KAMU  " + state.players[session.LocalSlot].collected + " poin     /     TEMAN  " + state.players[1 - session.LocalSlot].collected + " poin\nGIGITAN  " + state.bites + " / " + session.Config.bite.maximumBites;
+            resultStats.text = "KAMU  " + state.players[session.LocalSlot].collected + " camilan     /     TEMAN  " + state.players[1 - session.LocalSlot].collected + " camilan\nGIGITAN  " + state.bites + " / " + session.Config.bite.maximumBites;
             resultReady.interactable = board.TrackingValid && !session.LocalReady;
             resultReady.GetComponentInChildren<Text>().text = session.LocalReady ? "Kamu siap. Tunggu temanmu..." : board.TrackingValid ? "Saya siap main lagi" : "Pindai kartu dulu untuk main lagi";
             replayButton.interactable = session.Hosting && bothReady;
