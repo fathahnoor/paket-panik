@@ -29,6 +29,7 @@ namespace PaketPanik
         private InputField ip, pin;
         private Image angerBar, batteryBar;
         private Button startButton;
+        private GameObject leaveButton, muteButton;
         private HoldControl actionHold, sealHold;
         private GameObject sealButton;
         private Font font;
@@ -97,8 +98,10 @@ namespace PaketPanik
             batteryBar = Bar(hud.transform, new Vector2(0, -50), lilac);
             batteryLabel = Label(hud.transform, "Lampu kamu", 24, Color.white, new Vector2(900, 36), new Vector2(0, -95));
             var leave = ButtonAt(safe, "KELUAR", new Vector2(180, 70), new Vector2(.15f, .77f), Vector2.zero, ink); leave.onClick.AddListener(session.Leave);
+            leaveButton = leave.gameObject;
             var mute = ButtonAt(safe, "SUARA: ON", new Vector2(225, 70), new Vector2(.81f, .77f), Vector2.zero, ink);
             mute.onClick.AddListener(() => { muted = !muted; audioSource.mute = muted; mute.GetComponentInChildren<Text>().text = muted ? "SUARA: OFF" : "SUARA: ON"; });
+            muteButton = mute.gameObject;
 
             lobby = Panel("Lobby", safe, new Vector2(950, 690), new Vector2(.5f, .25f), Vector2.zero, new Color(ink.r, ink.g, ink.b, .94f));
             roomInfo = Label(lobby.transform, "", 29, gold, new Vector2(850, 160), new Vector2(0, 240));
@@ -136,6 +139,8 @@ namespace PaketPanik
             var state = session.State; bool connected = session.Connected;
             bool inLobby = state.phase == GamePhase.Lobby || state.phase == GamePhase.Won || state.phase == GamePhase.Lost || state.phase == GamePhase.Aborted || state.phase == GamePhase.Paused;
             menu.SetActive(!connected); hud.SetActive(connected); lobby.SetActive(connected && inLobby); controls.SetActive(connected && !inLobby);
+            if (leaveButton) leaveButton.SetActive(connected);
+            if (muteButton) muteButton.SetActive(connected);
             menuStatus.text = session.Status;
             if (!connected) return;
             var player = state.players[session.LocalSlot];
