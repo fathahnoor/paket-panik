@@ -120,7 +120,8 @@ namespace PaketPanik
             actionHold = action.gameObject.AddComponent<HoldControl>(); actionLabel = action.GetComponentInChildren<Text>();
             var seal = ButtonAt(controls.transform, "TAHAN BERSAMA: SEGEL", new Vector2(910, 88), new Vector2(.5f, .025f), Vector2.zero, gold);
             sealHold = seal.gameObject.AddComponent<HoldControl>(); sealButton = seal.gameObject;
-            status = Label(safe, "", 31, Color.white, new Vector2(900, 160), new Vector2(0, -430));
+            var statusChip = Panel("StatusChip", safe, new Vector2(940, 156), new Vector2(.5f, 1f), new Vector2(0, -330), new Color(ink.r, ink.g, ink.b, .72f));
+            status = Label(statusChip.transform, "", 30, Color.white, new Vector2(900, 146), Vector2.zero);
         }
         private void ShowHelp()
         {
