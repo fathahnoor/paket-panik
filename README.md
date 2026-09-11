@@ -5,7 +5,7 @@
 ### 🎁 Jaga paketnya. Curi isinya. Salahkan temanmu.
 
 **Dua HP. Satu meja. Satu kardus yang punya gigi.** 👹
-Monster paket terlihat oleh kedua pemain lewat kamera AR masing-masing — satu pemain menenangkannya dengan lampu, satu lagi mencuri camilannya. Lampu habis, permen emas menggoda, lalu paketnya bersin. 😱🍬
+Monster paket terlihat oleh kedua pemain lewat kamera AR masing-masing, satu pemain menenangkannya dengan lampu, satu lagi mencuri camilannya. Lampu habis, permen emas menggoda, lalu paketnya bersin. 😱🍬
 
 [![Unity](https://img.shields.io/badge/Unity-6000.6.0f1-000000?logo=unity&logoColor=white)](https://unity.com)
 [![ARCore](https://img.shields.io/badge/AR-ARCore%20%2B%20AR%20Foundation-4285F4?logo=google&logoColor=white)](https://developers.google.com/ar)
@@ -17,7 +17,7 @@ Monster paket terlihat oleh kedua pemain lewat kamera AR masing-masing — satu 
 
 </div>
 
-> ⚠️ **Status jujur:** vertical slice sudah terbangun dan teruji di Editor (kompilasi bersih, 11/11 tes lulus, APK berhasil dibuild). **Uji dua handphone nyata belum dijalankan** — checklistnya ada di [`Evidence/DEVICE-QA-CHECKLIST.md`](Evidence/DEVICE-QA-CHECKLIST.md).
+> ⚠️ **Status jujur:** vertical slice sudah terbangun dan teruji di Editor (kompilasi bersih, 11/11 tes lulus, APK berhasil dibuild). **Uji dua handphone nyata belum dijalankan**, checklistnya ada di [`Evidence/DEVICE-QA-CHECKLIST.md`](Evidence/DEVICE-QA-CHECKLIST.md).
 > 📣 **Punya HP Android yang mendukung ARCore? Kami butuh laporan pengujianmu!** Cukup ikuti checklist dan kirim hasilnya lewat issue. 🙏
 
 ---
@@ -28,12 +28,12 @@ Monster paket terlihat oleh kedua pemain lewat kamera AR masing-masing — satu 
 |:-:|:-:|:-:|
 | <img src="Evidence/editor-smoke-menu.png" width="230" alt="Menu"> | <img src="Evidence/editor-monster-view.png" width="230" alt="Monster"> | <img src="Evidence/editor-sim-view.png" width="230" alt="AR simulation"> |
 
-<p align="center"><i>Semua visual di atas dirender langsung dari kode game — tidak ada file gambar karakter.</i></p>
+<p align="center"><i>Semua visual di atas dirender langsung dari kode game, tidak ada file gambar karakter.</i></p>
 
 ## ✨ Kenapa proyek ini menarik
 
-- 🎯 **Puzzle sosial asli**: satu jaga, satu ambil — dan kalian harus percaya pada orang yang salah. 😅
-- 📸 **AR bersama tanpa Cloud Anchor**: satu kartu marker 20 cm menjadi koordinat papan yang sama untuk dua HP — tanpa server, tanpa akun, tanpa internet.
+- 🎯 **Puzzle sosial asli**: satu jaga, satu ambil, dan kalian harus percaya pada orang yang salah. 😅
+- 📸 **AR bersama tanpa Cloud Anchor**: satu kartu marker 20 cm menjadi koordinat papan yang sama untuk dua HP, tanpa server, tanpa akun, tanpa internet.
 - 🧠 **Aturan deterministik**: host menghitung 20 tick/detik; klien hanya mengirim intent yang divalidasi secara geometri. Anti-cheat dasar sudah ada.
 - 🎨 **Nol aset biner karakter**: monster kardus, permen, efek suara, dan marker seluruhnya digenerate dari kode.
 - 🧪 **Test-first gameplay**: 11 tes NUnit mengunci perilaku aturan (quota, baterai, gigitan, lock barang, rematch).
@@ -41,7 +41,7 @@ Monster paket terlihat oleh kedua pemain lewat kamera AR masing-masing — satu 
 
 ## 🎮 Cara main (30 detik)
 
-1. 🃏 Cetak kartu marker 20 cm ([`Marker_PaketPanik_Print.html`](Assets/PaketPanik/Art/Marker_PaketPanik_Print.html)) — **skala 100%**, sisi gambar harus 20,0 cm — letakkan datar di meja terang.
+1. 🃏 Cetak kartu marker 20 cm ([`Marker_PaketPanik_Print.html`](Assets/PaketPanik/Art/Marker_PaketPanik_Print.html)), **skala 100%**, sisi gambar harus 20,0 cm, letakkan datar di meja terang.
 2. 📲 Pasang APK di dua HP Android 8+ yang mendukung [ARCore](https://developers.google.com/ar/devices).
 3. 📡 Kedua HP ke Wi-Fi yang sama. HP A tekan **BUAT MEJA** dan bagikan IP + PIN. HP B isi IP + PIN lalu **GABUNG MEJA**.
 4. 📸 Keduanya pindai kartu yang sama, tekan **POSISI COCOK / SIAP**, lalu host menekan **MULAI PAKET**.
@@ -52,8 +52,8 @@ Monster paket terlihat oleh kedua pemain lewat kamera AR masing-masing — satu 
 
 ```mermaid
 flowchart TB
-  H["📱 Host — HP A<br/>GameRules authoritative (20 Hz)"]
-  C["📱 Client — HP B"]
+  H["📱 Host (HP A)<br/>GameRules authoritative (20 Hz)"]
+  C["📱 Client (HP B)"]
   M["🃏 Marker 20 cm<br/>(koordinat papan bersama)"]
   H -- "snapshot state (10 Hz, reliable)" --> C
   C -- "intent tervalidasi (10 Hz)" --> H
@@ -87,7 +87,7 @@ git clone https://github.com/fathahnoor/260911_demo-mr.git
 - 🏗️ **Rebuild APK** (Windows): `pwsh Tools/Build-AndroidApk.ps1` → hasil di `Builds/Android/PaketPanik.apk` + SHA256 otomatis.
 - 🔁 **Regenerate scene/marker/settings** (idempotent): menu Unity **PaketPanik → Build Project Assets**.
 - 🧪 **Jalankan tes**: Test Runner → EditMode → `GameRulesTests`, atau via CLI: `unity command run_tests --mode editor --filter GameRulesTests`.
-- 🕶️ **Tanpa HP?** Bisa! Play Mode sudah dikonfigurasi dengan **XR Simulation** — tekan **BUAT MEJA** untuk sesi AR simulasi di Editor.
+- 🕶️ **Tanpa HP?** Bisa! Play Mode sudah dikonfigurasi dengan **XR Simulation**, tekan **BUAT MEJA** untuk sesi AR simulasi di Editor.
 
 ## 📁 Struktur repo
 
@@ -125,7 +125,7 @@ Tools/                     🤖 helper Unity CLI + build APK (PowerShell)
 
 PR, issue, dan laporan HP sangat diterima! 💚
 
-- 🐛 **Laporkan bug / hasil uji perangkat** — pakai template sederhana: model HP, versi Android, versi ARCore, apa yang terjadi, screenshot/video.
+- 🐛 **Laporkan bug / hasil uji perangkat**, pakai template sederhana: model HP, versi Android, versi ARCore, apa yang terjadi, screenshot/video.
 - 💡 **Good first issues**: sound design, animasi bersin/gigit, terjemahan, polesan HUD, tes tambahan, model kardus.
 - 🔧 **Alur standar**: fork → branch fitur → jalankan `GameRulesTests` → PR dengan deskripsi jelas.
 - 🧭 **Aturan emas proyek**: jangan sinkronkan transform dunia AR lewat jaringan (pakai papan/marker!), jangan kirim skor dari klien, dan jangan tambah aset berhak cipta.
@@ -139,22 +139,22 @@ PR, issue, dan laporan HP sangat diterima! 💚
 
 ## 📚 Dokumen desain
 
-- 🎮 [GAME_DESIGN.md](Design/GAME_DESIGN.md) — aturan lengkap, balancing, batas MVP
-- 📐 [TECH_SPEC.md](Design/TECH_SPEC.md) — detail AR, sinkronisasi, struktur kode
-- 📊 [MARKET_RESEARCH.md](Design/MARKET_RESEARCH.md) — sumber bertanggal & alasan pemilihan tema
-- 🧪 [BUILD_PLAN.md](Design/BUILD_PLAN.md) — acceptance T01–T12 & rencana uji keseruan
-- 🎬 [LAUNCH_PLAN.md](Design/LAUNCH_PLAN.md) — rencana video peluncuran 20 detik
-- 🤝 [HANDOFF.md](HANDOFF.md) — peta status untuk kontributor baru
+- 🎮 [GAME_DESIGN.md](Design/GAME_DESIGN.md): aturan lengkap, balancing, batas MVP
+- 📐 [TECH_SPEC.md](Design/TECH_SPEC.md): detail AR, sinkronisasi, struktur kode
+- 📊 [MARKET_RESEARCH.md](Design/MARKET_RESEARCH.md): sumber bertanggal & alasan pemilihan tema
+- 🧪 [BUILD_PLAN.md](Design/BUILD_PLAN.md): acceptance T01-T12 & rencana uji keseruan
+- 🎬 [LAUNCH_PLAN.md](Design/LAUNCH_PLAN.md): rencana video peluncuran 20 detik
+- 🤝 [HANDOFF.md](HANDOFF.md): peta status untuk kontributor baru
 
 ## 📜 Lisensi
 
-Belum ditetapkan oleh pemilik repo. Sebelum memakai atau mengembangkan proyek ini, silakan buka **issue** untuk mendiskusikan lisensi yang cocok — usulan (mis. MIT) sangat diterima. 😊
+Belum ditetapkan oleh pemilik repo. Sebelum memakai atau mengembangkan proyek ini, silakan buka **issue** untuk mendiskusikan lisensi yang cocok, usulan (mis. MIT) sangat diterima. 😊
 
 ---
 
 <div align="center">
 
-📦 **PAKET PANIK** — dibuat untuk dimainkan berdua, di satu meja, sambil tertawa. 😂
+📦 **PAKET PANIK**, dibuat untuk dimainkan berdua, di satu meja, sambil tertawa. 😂
 
 *Jika kamu membaca ini dan tersenyum, bintang ⭐ atau issue pertamamu sangat berarti!*
 

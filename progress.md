@@ -29,11 +29,11 @@ Every implementation checkpoint must append its file changes, exact verification
 - Ran EditMode tests `GameRulesTests` via `unity command run_tests`: 11/11 passed, fresh evidence at Evidence/core-tests-cli.json.
 - Next: Editor scene generator (AR Session + XR Origin + tracker + UI), Resources balance/marker-hash, Android build settings, APK build.
 
-## 2026-09-11 08:55 WIB (OpenCode / DeepSeek V4.1 Flash — sesi penuh)
+## 2026-09-11 08:55 WIB (OpenCode / DeepSeek V4.1 Flash, sesi penuh)
 
 - (06:55 sempat di-hold sebentar atas permintaan pengguna; lanjut kembali pada 07:10.)
 - Scene generator: `Assets/PaketPanik/Editor/PaketPanikSceneBuilder.cs` + asmdef Editor. Idempotent; membuat marker PNG 512px (orisinil), `XRReferenceImageLibrary` 0.20 m, `Resources/PaketPanik/balance.json` (dari Design/balance.json) + `marker-hash.txt`, scene `PaketPanik.unity` (AR Session, XR Origin + kamera AR + TrackedPoseDriver, ARTrackedImageManager, ARAnchorManager, root game dengan NetworkManager/UnityTransport/SharedBoard/LanSession/PanicPresentation + BoardRoot, EventSystem, light), daftar build scene pertama, dan player settings Android.
-- `ARBackgroundRendererFeature` ternyata sudah ada di kedua renderer URP template — tidak perlu perubahan renderer.
+- `ARBackgroundRendererFeature` ternyata sudah ada di kedua renderer URP template, tidak perlu perubahan renderer.
 - Verifikasi scene: semua referensi wired (boardRoot, camera, managers, presentation), marker library 1 gambar 0.2 m, Resources termuat, product "PAKET PANIK", build scene pertama benar.
 - Smoke test Play Mode: menu + lobby render; `LanSession.Host()` membuat meja + PIN (NGO jalan) tanpa error. Fix kosmetik: tombol KELUAR/SUARA hanya saat terhubung; label status dipindah ke chip di bawah HUD.
 - Android: switch target + setelan (IL2CPP, ARM64, OpenGLES3, minSdk 26, portrait, ARCore loader; OpenXR dilepas dari Android). APK pertama SUKSES: 61.5 MB, 0 error, 23 menit; aapt memverifikasi paket, izin CAMERA/INTERNET, wajib `camera.ar`. Bukti Evidence/build-android.json + DEVICE-QA-CHECKLIST.md. Uji perangkat: NOT RUN (tidak ada HP terpasang).
