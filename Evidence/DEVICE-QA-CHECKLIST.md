@@ -1,7 +1,7 @@
 # PAKET PANIK - Checklist Uji Dua Perangkat
 
 Status: BELUM DIJALANKAN. Dokumen ini panduan saat dua handphone tersedia.
-APK: `Builds/Android/PaketPanik.apk` (SHA256 0E52B3E2...34A27B6, 61.5 MB, arm64-v8a, minSdk 26).
+APK: `Builds/Android/PaketPanik.apk` (SHA256 3D8F092D...C23187A, 61.5 MB, arm64-v8a, minSdk 26).
 
 ## Persiapan
 

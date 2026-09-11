@@ -20,3 +20,14 @@
 - `XRReferenceImageLibrary` bersifat immutable saat runtime. Untuk membuat library dari Editor script gunakan extension `UnityEditor.XR.ARSubsystems.XRReferenceImageLibraryExtensions`: `Add()`, `SetTexture(index, texture, keepTexture)`, `SetName`, `SetSize`, `SetSpecifySize`.
 - `LanSession` memuat `Resources/PaketPanik/balance` (JSON GameConfig) dan `Resources/PaketPanik/marker-hash` (teks), keduanya belum ada dan wajib dibuat sebelum scene bisa jalan.
 - Runtime script (dibuat sesi sebelumnya, sudah ter-commit): SharedBoard (anchor marker + BoardRay), LanSession (NGO + PIN + marker hash + snapshot), PanicPresentation (generate seluruh HUD/monster/audio dari kode). Scene hanya perlu rig AR + komponen yang di-wire.
+
+## Build Android dan XR Simulation (OpenCode, 2026-09-11 siang)
+
+- APK pertama sukses: `Builds/Android/PaketPanik.apk`, 61.5 MB, arm64-v8a, IL2CPP, OpenGLES3, minSdk 26, targetSdk 34, label "PAKET PANIK", paket `com.fathahnoor.paketpanik`. Manifest: CAMERA + INTERNET + ACCESS_NETWORK_STATE saja; fitur wajib `android.hardware.camera.ar`; portrait. Build 23 menit, 0 error, 9 warning benign. APK tidak di-commit (gitignore).
+- Perintah CLI penting: `unity command build --target Android --outputPath ... --confirm true` bersifat async; pantau `build_status`. `switch_build_target` juga async via `switch_build_target_status`.
+- `capture_game_view --source screen` menulis ke `Assets/<path>` meski diberi path relatif; pindahkan manual ke folder `Evidence/` root dan hapus folder `Assets/Evidence` agar tidak ikut project.
+- UI: label status dipindah ke chip ber-anchor top (`StatusChip`) supaya tidak menimpa panel lobby/HUD pada berbagai aspek layar. Tombol KELUAR/SUARA hanya tampil saat terhubung.
+- XR Simulation (Editor): loader `UnityEngine.XR.Simulation.SimulationLoader` aktif untuk Standalone; environment default AR Foundation disalin ke `Assets/PaketPanik/Art/SimulationPaketPanik.prefab`, gambar tracked diganti marker kita (0.2 m, diangkat 4 cm dari meja). Kamera simulasi memakai XROrigin dengan `CameraYOffset` 1.1176 dan dibatasi `m_CameraMovementBounds`; pose awal harus dihitung dengan memperhitungkan offset itu (runtime kamera = pose + 1.1176).
+- Hasil simulasi: environment + marker ter-render di Game view (bukti Evidence/editor-sim-view.png); sesi AR berjalan (ARSession supported); kalibrasi SharedBoard pernah sukses sekali (trackable ditemukan, boardRoot ter-anchor, `calibrated=True/tracking=True`). Discovery gambar tidak konsisten antar sesi play — jangan jadikan pengganti uji perangkat; simpan sebagai alat bantu debugging.
+- XR Simulation discovery memakai kualitas frustum + jarak + arah + raycast okulasi (lihat TrackedImageDiscoveryStrategy); marker 20 cm punya maxRange 5 m dan kualitas distance 1 di bawah ~2 m.
+- `Object.FindObjectsByType` tidak menemukan objek environment simulasi (scene preview terpisah), jadi debug hanya lewat ARTrackedImageManager dan XROrigin camera.

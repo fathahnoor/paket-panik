@@ -1,15 +1,15 @@
 # Project Handover
 
 Handoff status: READY
-Updated: 2026-09-11T06:57:00+07:00 Asia/Jakarta
+Updated: 2026-09-11T09:05:00+07:00 Asia/Jakarta
 Project root: C:\DevPath\260911_demo-mr
-Source: GPT-6 Astra in Codex (design + first runtime), continued by OpenCode / DeepSeek V4.1 Flash (compile fix + tests), resumed by Codex ~10:50 WIB
+Source: GPT-6 Astra in Codex (design + first runtime), continued by OpenCode / DeepSeek V4.1 Flash (scene, APK, simulation, QA evidence), next session by Codex or any agent
 
 ## Resume here
 
-Read TASK_STATE.md, progress.md and findings.md (section "Scene generator") first, then Design/TECH_SPEC.md and Design/BUILD_PLAN.md. Inspect actual Git/Unity state and continue the first incomplete task in task_plan.md. Current next checkpoint: write the Editor scene generator (scene `Assets/PaketPanik/Scenes/PaketPanik.unity`, marker library, `Resources/PaketPanik/balance` + `marker-hash`, ARBackgroundRendererFeature on the URP renderers), then Android build settings and APK build.
+Read TASK_STATE.md, progress.md and findings.md first, then Design/BUILD_PLAN.md. Inspect actual Git/Unity state: local `main` may have commits ahead of origin because pushes were deferred to ~10:45 WIB at the user's request; push them first if `git status` shows ahead. Next real work: run the two-phone QA from Evidence/DEVICE-QA-CHECKLIST.md with the built APK, then fix whatever the device run reveals. The vertical slice (scene, marker, LAN, APK) is otherwise complete and verified on the Editor side.
 
-Safe initial commands: `Get-Content -LiteralPath .\TASK_STATE.md -Raw`; `unity status --json`; `unity command editor_status --json`; `git status --short --branch`; `git log --oneline -5`. Unity CLI lives at `C:\Users\fathahnoor\AppData\Local\Unity\bin\unity.exe`. Use `unity command <nama>` to reach Editor tools. Use host permissions when the tool sandbox cannot reach the Editor or write Git metadata. Do not treat access failure as proof Unity is closed.
+Safe initial commands: `Get-Content -LiteralPath .\TASK_STATE.md -Raw`; `unity status --json`; `unity command editor_status --json`; `git status --short --branch`; `git log --oneline -8`; `git push`. Unity CLI lives at `C:\Users\fathahnoor\AppData\Local\Unity\bin\unity.exe`. Use `unity command <nama>` to reach Editor tools. Use host permissions when the tool sandbox cannot reach the Editor or write Git metadata.
 
 ## Goal and scope
 
@@ -17,13 +17,13 @@ Design and implement PAKET PANIK, a two-phone Android handheld AR game with LAN 
 
 ## Current state
 
-Design complete. Runtime implemented and committed in `7d7ae29`: deterministic core rules with 11 passing EditMode tests, AR shared-board marker alignment (`SharedBoard`), LAN session with PIN + marker hash + host-authoritative snapshots (`LanSession`), and fully code-generated HUD/monster/audio (`PanicPresentation`). ARCore 6.6.2 and NGO 2.13.0 resolved in packages. Compile clean, 0 console errors. Nothing scene-level exists yet: no `PaketPanik.unity`, no `Resources/PaketPanik/*`, no marker image/library, no APK, no device tests. Check progress.md for subsequent changes rather than trusting this paragraph after time has passed.
+Vertical slice complete on the Editor side. Runtime (core rules, SharedBoard, LanSession, PanicPresentation) compiles clean with 11/11 EditMode tests. Scene `Assets/PaketPanik/Scenes/PaketPanik.unity` generated and reference-verified; marker PNG + `XRReferenceImageLibrary` (0.20 m) exist; Resources balance/hash load. Android APK built successfully at `Builds/Android/PaketPanik.apk` (61.5 MB, arm64-v8a, minSdk 26, IL2CPP, OpenGLES3, AR Required, CAMERA+INTERNET only); build evidence in Evidence/build-android.json. Editor play smoke passes (menu, lobby, Host() with PIN). XR Simulation renders the marker environment; calibration succeeded once but discovery is flaky. Device QA NOT RUN (no phone attached). Check progress.md for subsequent changes rather than trusting this paragraph after time has passed.
 
 ## Worktree and files
 
-Git repository on main, HEAD `7d7ae29`, sync with origin/main (two commits: c5eba90 baseline+design, 7d7ae29 runtime+tests). Remote origin: https://github.com/fathahnoor/260911_demo-mr.git. Detailed baseline: Design/evidence/git-baseline.txt. One pre-existing local modification remains unstaged by choice: `Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset` (adds AR Foundation default simulation environment). Preserve user-owned changes.
+Git repository on main. Remote origin: https://github.com/fathahnoor/260911_demo-mr.git. Detailed baseline: Design/evidence/git-baseline.txt. Local commits after `bcef19a`: scene/builder, APK build, UI fixes, simulation setup and docs; push deferred to ~10:45 WIB at user request. One pre-existing local modification remains unstaged by choice: `Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset` (adds AR Foundation default simulation environment). Preserve user-owned changes.
 
-Task additions: README.md, Design/, TASK_STATE.md, HANDOFF.md, task_plan.md, findings.md, progress.md, NEXT_SESSION_PROMPT.md, Evidence/core-tests-cli.json, Assets/PaketPanik/ (Runtime Core/AR/Network/Presentation + Tests), Assets/XR/ARCore assets, Assets/DefaultNetworkPrefabs.asset. Input hashes: Design/evidence/baseline-hashes.json.
+Task additions: README.md, Design/, TASK_STATE.md, HANDOFF.md, task_plan.md, findings.md, progress.md, NEXT_SESSION_PROMPT.md, Evidence/ (tests, build report, screenshots, QA checklist), Assets/PaketPanik/ (Runtime Core/AR/Network/Presentation + Editor builder + Tests + Art marker + Scenes + Resources), Assets/XR ARCore/Simulation assets, Assets/DefaultNetworkPrefabs.asset, Tools/ (Unity CLI helper scripts). Input hashes: Design/evidence/baseline-hashes.json.
 
 ## Decisions and constraints
 
@@ -38,14 +38,16 @@ Task additions: README.md, Design/, TASK_STATE.md, HANDOFF.md, task_plan.md, fin
 - `unity status --json`: PASS, one ready instance port 7800, project path matches.
 - `unity command recompile` + `recompile_status`: PASS, failed=false, console errors 0.
 - `unity command run_tests --mode editor --filter GameRulesTests`: PASS 11/11; evidence Evidence/core-tests-cli.json.
-- `git push`: PASS, c5eba90..7d7ae29 main -> main; origin/main matches local HEAD.
-- SDK, NDK, JDK and adb existence: PASS (files only). Android device tests and APK build: NOT RUN.
-- Scene/AR/marker/Resources: NOT CREATED. Simulation Editor play-mode check: NOT RUN (can be tried after scene exists).
+- Scene/references: PASS via run_script (boardRoot, camera, managers, presentation, library 1 image @0.20 m, Resources load, product name, first build scene).
+- Android build: PASS (result Succeeded, 0 errors, 9 benign warnings); APK manifest verified with aapt (CAMERA/INTERNET only, `android.hardware.camera.ar` required, portrait, arm64).
+- Editor Play smoke: PASS (menu/lobby render, Host() opens table with PIN, 0 errors). Evidence screenshots in Evidence/.
+- XR Simulation: environment + marker render; `SharedBoard` calibration succeeded once (trackables=1, boardRoot anchored); repeated discovery flaky. Not a substitute for device QA.
+- Device tests: NOT RUN, no Android device attached. APK install, ARCore support, tracking, FPS all unverified.
 - Handoff and design validation: PASS earlier (14-file check, zero warnings) per progress.md.
 
 ## Risks and blockers
 
-ARCore/NGO packages resolved and compile clean; real Android build not yet run. Device ARCore support and printed 20 cm marker must be verified. Shared alignment is a technical gate, not solved by synchronizing transforms alone. The pre-existing local modification to `SimulationEnvironmentAssetsManager.asset` is intentionally left unstaged; do not discard it.
+Device ARCore support and the printed 20 cm marker must be verified on the two real phones; shared alignment and LAN behavior are the main technical gates. XR Simulation discovery instability is an Editor-only quirk; do not claim device success from it. The pre-existing local modification to `SimulationEnvironmentAssetsManager.asset` is intentionally left unstaged; do not discard it. The `Builds/` folder is gitignored, so the APK must be rebuilt or shared manually.
 
 Native automation immediate-create refused anchored DTSTART; suggested_create rendered the exact requested schedule card. No active schedule ID verified yet. See TASK_STATE.md for latest activation state; do not create duplicates or a standalone cron substitute.
 

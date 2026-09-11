@@ -5,8 +5,8 @@
   "target": "Android",
   "apk": {
     "path": "Builds/Android/PaketPanik.apk",
-    "sizeBytes": 64442881,
-    "sha256": "0E52B3E29AEF53942B2C8F9A41E3DF2BD0CB046072D1B67649383189534A27B6",
+    "sizeBytes": 64444455,
+    "sha256": "3D8F092D493515F6C71034580055A80E905EA45F4B0E4FACE0D3DA624C23187A",
     "package": "com.fathahnoor.paketpanik",
     "versionName": "0.1.0",
     "versionCode": 1,
@@ -15,7 +15,8 @@
     "nativeCode": "arm64-v8a",
     "scriptingBackend": "IL2CPP",
     "graphicsApi": "OpenGLES3",
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "note": "Final build after UI and CS0618 fixes; previous first-build hash 0E52B3E2... was superseded."
   },
   "manifest": {
     "permissions": ["android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.CAMERA"],
@@ -25,17 +26,17 @@
     "noStorage": true
   },
   "buildReport": {
-    "buildId": "build_0bfe9da3942f",
+    "buildId": "build_692ae0705451",
     "status": "completed",
     "result": "Succeeded",
-    "buildTimeMs": 1400240,
-    "totalWarnings": 9,
+    "buildTimeMs": 243657,
+    "totalWarnings": 8,
     "totalErrors": 0,
+    "note": "Second build (incremental) after UI chip fix and CS0618 fix; first full build took 23 minutes.",
     "warningsSummary": [
       "IL2CPP TMP methods split into own cpp (informational)",
       "Pre-baked collision info on template mesh Sitting_Cylinder_Anim",
       "TextMeshPro shader deprecation pragma",
-      "CS0618 FindFirstObjectByType in PanicPresentation (fixed after build)",
       "Diagnostics Data vs Debug Symbols note",
       "Pipeline Runtime disabled in player builds (editor-only tooling)",
       "Immutable package note: ARCore TestReferenceImageLibrary.asset churn"

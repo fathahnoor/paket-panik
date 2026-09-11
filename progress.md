@@ -29,12 +29,17 @@ Every implementation checkpoint must append its file changes, exact verification
 - Ran EditMode tests `GameRulesTests` via `unity command run_tests`: 11/11 passed, fresh evidence at Evidence/core-tests-cli.json.
 - Next: Editor scene generator (AR Session + XR Origin + tracker + UI), Resources balance/marker-hash, Android build settings, APK build.
 
-## 2026-09-11 06:55 WIB (OpenCode pause checkpoint, resume oleh Codex 10:50)
+## 2026-09-11 08:55 WIB (OpenCode / DeepSeek V4.1 Flash — sesi penuh)
 
-- Development di-hold atas permintaan pengguna. Tidak ada pekerjaan tersisa yang setengah jadi di disk: working tree hanya berisi perubahan lama `SimulationEnvironmentAssetsManager.asset` (pre-existing, sengaja tidak di-commit).
-- Commit + push terakhir: `7d7ae29` feat: add AR, LAN and presentation runtime with passing core tests. origin/main sinkron.
-- Verifikasi terakhir: recompile clean (failed=false, 0 error console), 11/11 EditMode test lulus, bukti di Evidence/core-tests-cli.json.
-- Riset scene generator sudah dimulai (belum ada file baru): temuan teknis ada di findings.md bagian "Scene generator".
-- Next untuk Codex: tulis `Assets/PaketPanik/Editor/` scene generator + marker library, `Resources/PaketPanik/balance` + `marker-hash`, tambah `ARBackgroundRendererFeature` ke renderer URP, lalu `create_scene`/`save_scene`/`add_scene_to_build` dan build APK.
+- (06:55 sempat di-hold sebentar atas permintaan pengguna; lanjut kembali pada 07:10.)
+- Scene generator: `Assets/PaketPanik/Editor/PaketPanikSceneBuilder.cs` + asmdef Editor. Idempotent; membuat marker PNG 512px (orisinil), `XRReferenceImageLibrary` 0.20 m, `Resources/PaketPanik/balance.json` (dari Design/balance.json) + `marker-hash.txt`, scene `PaketPanik.unity` (AR Session, XR Origin + kamera AR + TrackedPoseDriver, ARTrackedImageManager, ARAnchorManager, root game dengan NetworkManager/UnityTransport/SharedBoard/LanSession/PanicPresentation + BoardRoot, EventSystem, light), daftar build scene pertama, dan player settings Android.
+- `ARBackgroundRendererFeature` ternyata sudah ada di kedua renderer URP template — tidak perlu perubahan renderer.
+- Verifikasi scene: semua referensi wired (boardRoot, camera, managers, presentation), marker library 1 gambar 0.2 m, Resources termuat, product "PAKET PANIK", build scene pertama benar.
+- Smoke test Play Mode: menu + lobby render; `LanSession.Host()` membuat meja + PIN (NGO jalan) tanpa error. Fix kosmetik: tombol KELUAR/SUARA hanya saat terhubung; label status dipindah ke chip di bawah HUD.
+- Android: switch target + setelan (IL2CPP, ARM64, OpenGLES3, minSdk 26, portrait, ARCore loader; OpenXR dilepas dari Android). APK pertama SUKSES: 61.5 MB, 0 error, 23 menit; aapt memverifikasi paket, izin CAMERA/INTERNET, wajib `camera.ar`. Bukti Evidence/build-android.json + DEVICE-QA-CHECKLIST.md. Uji perangkat: NOT RUN (tidak ada HP terpasang).
+- XR Simulation Editor disiapkan (`SimulationPaketPanik.prefab` memakai marker kita + pose kamera menghadap marker). Environment dan marker ter-render di Game view; kalibrasi SharedBoard pernah sukses sekali; discovery gambar tidak konsisten. Bukan pengganti uji perangkat.
+- Commit lokal sesi ini: 272a77e, 61c95ff, 6db4a88, 5072070, 9e0dedb, c2a858b (+ fix UI/CS0618). Push ditunda ke ~10:45 sesuai permintaan pengguna (menghindari popup kredensial).
+- Next: rebuild APK dengan kode final (sedang berjalan), finalisasi Evidence/build-android.json (hash baru), update TASK_STATE/HANDOFF, lalu push semua commit dan uji dua perangkat oleh pengguna dengan checklist.
+
 
 

@@ -1,9 +1,9 @@
 # Task State
 
 Status: IN_PROGRESS
-Updated: 2026-09-11T06:56:00+07:00
+Updated: 2026-09-11T09:00:00+07:00
 Main goal: Design and implement PAKET PANIK, a two-phone Android AR multiplayer game, preserving progress in GitHub and portable handoff files.
-Current checkpoint: HOLD by user request until Codex resumes ~10:50 WIB. All runtime code compiles clean (0 errors) and 11/11 EditMode tests pass. Commit 7d7ae29 pushed to origin/main. No scene, Resources, marker library, or APK yet; research notes for the scene generator are in findings.md.
+Current checkpoint: Vertical slice built. Scene PaketPanik.unity, marker library, Resources and Android config generated and verified; Android APK succeeded twice (61.5 MB, 0 errors); Editor play-mode smoke tests pass; XR Simulation renders the marker (calibration succeeded once, discovery flaky). Device QA NOT RUN. Local commits pending push (~10:45 WIB by user request).
 
 ## Completed
 
@@ -15,36 +15,38 @@ Current checkpoint: HOLD by user request until Codex resumes ~10:50 WIB. All run
 - Design package validator PASS for 14 files, HANDOFF_VALID warnings=0, task-state validation PASS.
 - Initial commit c5eba90 created. Initial push started, completion must be verified.
 - New user requirement: prepare for public itch.io Android distribution, independently playable with proven onboarding, device QA and proportionate safety/security checks. Actual itch.io upload is not requested yet.
+- Runtime committed in 7d7ae29: core rules, SharedBoard (marker anchor), LanSession (PIN + marker hash + host snapshots), PanicPresentation (generated HUD/monster/audio). 11/11 EditMode tests pass.
+- Scene generated and verified: PaketPanik.unity with AR rig + managers + wired components; marker PNG 512px, library 0.20 m, Resources balance/marker-hash; scene first in build settings; Android player settings with ARCore loader.
+- APK built (Builds/Android/PaketPanik.apk, 61.5 MB, arm64-v8a, minSdk 26, AR Required). aapt-verified manifest. Evidence/build-android.json + DEVICE-QA-CHECKLIST.md.
+- Editor play smoke: menu/lobby render; Host() opens a LAN table with PIN. Simulation environment with our marker renders; calibration verified once.
 
 ## Remaining
 
-- Complete technical specification, build plan, launch plan, and portable HANDOFF.md.
-- Register the requested current-task heartbeat starting 11 September 2026 10:50 WIB, every five hours.
-- Verify reachable Unity CLI and GitHub remote, then checkpoint the design.
-- Implement and validate core gameplay, AR camera/marker alignment, and two-player LAN.
-- Build APK and record real two-device acceptance evidence when devices are available to test.
-- Add standalone installation/onboarding, printable marker, PIN-protected local room, privacy information, signed release candidate and public-release checklist. Public release remains gated on real-device and independent-user tests.
+- Push local commits to GitHub (deferred to ~10:45 WIB at user request to avoid credential popups).
+- Two-device QA using Evidence/DEVICE-QA-CHECKLIST.md; record model/Android/ARCore versions, alignment offset, FPS, video.
+- Standalone onboarding polish, signed release candidate and public-release checklist before itch.io. Public release gated on real-device and independent-user tests.
+- Heartbeat activation state still unverified; do not create duplicate schedulers.
 
 ## Files changed
 
-- README.md, Design/: research, design and read-only baseline evidence only so far.
-- TASK_STATE.md: durable state and updated authorization.
+- Assets/PaketPanik/ (Core/AR/Network/Presentation runtime, Editor builder, Tests), Assets/XR ARCore+Simulation assets, Assets/DefaultNetworkPrefabs.asset, Packages manifest/lock, ProjectSettings, Evidence/ (tests, build report, screenshots, QA checklist), Tools/ (CLI helper scripts), docs (README/TASK_STATE/HANDOFF/progress/task_plan/findings/NEXT_SESSION_PROMPT).
 
 ## Verification
 
-- ProjectVersion.txt and package manifest: Unity 6000.6.0f1, AR Foundation 6.6.2, no ARCore or NGO installed.
-- Android SDK, NDK, OpenJDK and adb files exist. Device compatibility and runtime not verified.
-- Unity CLI 1.0.0-beta.8 exists. Sandboxed status returned no reachable Pipeline instance; retry with appropriate host access.
-- Git repository is main with no commits yet, 1518 staged paths and pre-existing unstaged changes. Preserve them. Detailed status in Design/evidence/git-baseline.txt.
+- Compile: recompile_status failed=false, 0 console errors (after asmdef fixes for Unity.XR.ARSubsystems and Unity.Networking.Transport).
+- Tests: 11/11 EditMode PASS (Evidence/core-tests-cli.json).
+- Scene: hierarchy + references verified via run_script (boardRoot, camera, managers, presentation, library 1 image 0.2 m, Resources). 
+- APK: build succeeded (result Succeeded, 0 errors, 9 benign warnings); aapt manifest verified (CAMERA/INTERNET only, camera.ar required, portrait, arm64).
+- Editor Play: menu + lobby + host/PIN smoke pass; 0 errors. XR Simulation renders environment + marker; SharedBoard calibration succeeded once (trackables=1, boardRoot anchored); repeated discovery flaky, not a substitute for device tests.
+- Device tests: NOT RUN, no phone attached. APK install/ARCore/tracking/FPS all unverified.
 
 ## Remaining errors
 
-- Normal Git status hit ownership and LFS sandbox write restrictions. Read-only process-scoped options provided baseline; actual Git writes need normal host permissions.
-- Runtime and physical device tests not yet performed.
+- None blocking compile/test. Device QA pending. Heartbeat activation unverified.
 
 ## First step next session
 
-- Read this file, HANDOFF.md, progress.md, findings.md (bagian Scene generator), lalu Design/TECH_SPEC.md. Verifikasi `unity status --json` + `git status`. Lanjutkan: Editor scene generator, `Resources/PaketPanik/balance` + `marker-hash`, marker library XRReferenceImageLibrary, ARBackgroundRendererFeature ke renderer URP, scene `Assets/PaketPanik/Scenes/PaketPanik.unity`, Android build settings, lalu build APK.
+- Baca TASK_STATE.md, HANDOFF.md, progress.md, findings.md (bagian Build Android dan XR Simulation). Verifikasi `unity status --json` + `git status` + `git log`. Jika push belum dilakukan, push semua commit lokal. Lalu: finalisasi hash APK di Evidence/build-android.json, jalankan uji dua perangkat memakai Evidence/DEVICE-QA-CHECKLIST.md, dan catat hasil apa adanya. Untuk pengembangan lanjut: polish onboarding/UI, lalu signed release candidate + checklist rilis publik itch.io.
 
 ## Heartbeat
 
