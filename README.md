@@ -146,6 +146,10 @@ PR, issue, dan laporan HP sangat diterima! 💚
 - 🎬 [LAUNCH_PLAN.md](Design/LAUNCH_PLAN.md) — rencana video peluncuran 20 detik
 - 🤝 [HANDOFF.md](HANDOFF.md) — peta status untuk kontributor baru
 
+## 📜 Lisensi
+
+Belum ditetapkan oleh pemilik repo. Sebelum memakai atau mengembangkan proyek ini, silakan buka **issue** untuk mendiskusikan lisensi yang cocok — usulan (mis. MIT) sangat diterima. 😊
+
 ---
 
 <div align="center">
