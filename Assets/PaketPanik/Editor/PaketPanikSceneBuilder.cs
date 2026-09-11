@@ -330,6 +330,7 @@ namespace PaketPanik.EditorTools
             board.simulator = false;
             presentation.board = board;
             presentation.session = lan;
+            presentation.interfaceFont = AssetDatabase.LoadAssetAtPath<Font>("Assets/MRTemplateAssets/Fonts/Inter/Inter-Regular.ttf");
 
             var events = new GameObject("EventSystem");
             events.AddComponent<EventSystem>();

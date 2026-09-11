@@ -1,5 +1,13 @@
 # Progress
 
+## 2026-09-11 UI/UX refresh in Codex
+
+- Latest user request: substantially improve UI/UX after OpenCode implementation, frequent local commits, one push only when finished.
+- Baseline 7c7e51f synchronized with origin/main. Baseline/planning commit 5b9ce60.
+- Parcel identity, Inter typography, mascot, welcome/join, readiness, thumb HUD, result receipt, scrollable guide implemented in PanicInterface and PanicSurface. PanicPresentation retains world/audio/input bridge.
+- Corrected timer and loot percentage; added per-pointer hold ownership and cancellation. Current 22/22 EditMode tests PASS (11 core + 11 presentation). New UI welcome/join visually inspected at actual 1080x1920, text overflow count 0.
+- Source and validation detail, known transient failures and next action: Evidence/UIUX/WORKLOG.md. No push yet; Android rebuild, Play UI states, compact/inset layout review still pending. Device QA remains NOT RUN.
+
 ## 2026-09-11 06:13 WIB
 
 - Initial scope was research and a portable design for the next session. User subsequently authorized implementation after design, regular commits and GitHub pushes, and autonomous decisions while AFK.
@@ -40,6 +48,5 @@ Every implementation checkpoint must append its file changes, exact verification
 - XR Simulation Editor disiapkan (`SimulationPaketPanik.prefab` memakai marker kita + pose kamera menghadap marker). Environment dan marker ter-render di Game view; kalibrasi SharedBoard pernah sukses sekali; discovery gambar tidak konsisten. Bukan pengganti uji perangkat.
 - Commit lokal sesi ini: 272a77e, 61c95ff, 6db4a88, 5072070, 9e0dedb, c2a858b (+ fix UI/CS0618). Push ditunda ke ~10:45 sesuai permintaan pengguna (menghindari popup kredensial).
 - Next: rebuild APK dengan kode final (sedang berjalan), finalisasi Evidence/build-android.json (hash baru), update TASK_STATE/HANDOFF, lalu push semua commit dan uji dua perangkat oleh pengguna dengan checklist.
-
 
 

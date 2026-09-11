@@ -1,9 +1,13 @@
 # Task State
 
 Status: IN_PROGRESS
-Updated: 2026-09-11T09:00:00+07:00
+Updated: 2026-09-11T17:42:00+07:00
 Main goal: Design and implement PAKET PANIK, a two-phone Android AR multiplayer game, preserving progress in GitHub and portable handoff files.
-Current checkpoint: Vertical slice built. Scene PaketPanik.unity, marker library, Resources and Android config generated and verified; Android APK succeeded twice (61.5 MB, 0 errors); Editor play-mode smoke tests pass; XR Simulation renders the marker (calibration succeeded once, discovery flaky). Device QA NOT RUN. Local commits pending push (~10:45 WIB by user request).
+Current checkpoint: UI/UX refresh in progress after OpenCode completed the vertical slice. New parcel visual identity, separate join flow, scrollable help, lobby steps, HUD and results implemented. Current compile PASS, 22/22 EditMode tests PASS. Welcome/join inspected at 1080x1920, no text height overflow. State/interaction and compact-layout review ongoing; Android APK still needs rebuilding for this UI.
+
+Latest user instruction supersedes old push timing below: frequent local commits, exactly ONE push when this UI/UX task is finished. Baseline main/origin main was 7c7e51f. No push during this task yet. Read Evidence/UIUX/WORKLOG.md for the latest checkpoint.
+
+Preserve and exclude three pre-existing changes: Assets/PaketPanik/Art/PaketPanikMarkerLibrary.asset; Assets/XR/UserSimulationSettings/SimulationEnvironmentAssetsManager.asset; ProjectSettings/ProjectSettings.asset. Device QA and independent-user readiness for itch.io remain NOT RUN.
 
 ## Completed
 

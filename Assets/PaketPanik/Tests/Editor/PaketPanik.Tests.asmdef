@@ -1,1 +1,1 @@
-{"name":"PaketPanik.Tests","references":["PaketPanik.Core"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"],"autoReferenced":false}
+{"name":"PaketPanik.Tests","references":["PaketPanik.Core","PaketPanik.Runtime","Unity.ugui"],"includePlatforms":["Editor"],"optionalUnityReferences":["TestAssemblies"],"autoReferenced":false}

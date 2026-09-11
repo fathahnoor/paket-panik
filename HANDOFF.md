@@ -1,11 +1,13 @@
 # Project Handover
 
 Handoff status: READY
-Updated: 2026-09-11T09:05:00+07:00 Asia/Jakarta
+Updated: 2026-09-11T17:42:00+07:00 Asia/Jakarta
 Project root: C:\DevPath\260911_demo-mr
 Source: GPT-6 Astra in Codex (design + first runtime), continued by OpenCode / DeepSeek V4.1 Flash (scene, APK, simulation, QA evidence), next session by Codex or any agent
 
 ## Resume here
+
+CURRENT TASK OVERRIDE: user returned after OpenCode implementation and requested a substantial UI/UX improvement. Commit locally per checkpoint, then push ONCE after finishing; do not follow the old push-first advice below. Read Evidence/UIUX/WORKLOG.md and TASK_STATE.md first. New PanicInterface/PanicSurface UI compiles and 22 EditMode tests pass; portrait welcome/join have been visually checked. Next: complete UI state/interaction and compact-layout review, rebuild Android, update evidence/docs, checkpoint, one push. Preserve the three pre-existing changes listed in TASK_STATE.md. APK and real-device evidence from before this refresh do not validate the new UI.
 
 Read TASK_STATE.md, progress.md and findings.md first, then Design/BUILD_PLAN.md. Inspect actual Git/Unity state: local `main` may have commits ahead of origin because pushes were deferred to ~10:45 WIB at the user's request; push them first if `git status` shows ahead. Next real work: run the two-phone QA from Evidence/DEVICE-QA-CHECKLIST.md with the built APK, then fix whatever the device run reveals. The vertical slice (scene, marker, LAN, APK) is otherwise complete and verified on the Editor side.
 
