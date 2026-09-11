@@ -13,6 +13,7 @@ Monster paket terlihat oleh kedua pemain lewat kamera AR masing-masing, satu pem
 [![Android](https://img.shields.io/badge/Android-ARM64%20%7C%20minSdk%2026-3DDC84?logo=android&logoColor=white)]()
 [![Tests](https://img.shields.io/badge/Tests-22%2F22%20lulus-brightgreen)]()
 [![PRs](https://img.shields.io/badge/PRs-welcome-brightgreen)]()
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Made in Indonesia](https://img.shields.io/badge/Made%20in-Indonesia-red)]()
 
 </div>
@@ -152,7 +153,7 @@ PR, issue, dan laporan HP sangat diterima! 💚
 
 ## 📜 Lisensi
 
-Belum ditetapkan oleh pemilik repo. Sebelum memakai atau mengembangkan proyek ini, silakan buka **issue** untuk mendiskusikan lisensi yang cocok, usulan (mis. MIT) sangat diterima. 😊
+Proyek ini dirilis di bawah [MIT License](LICENSE). Kamu bebas memakai, memodifikasi, dan mendistribusikan proyek ini, termasuk untuk keperluan komersial, dengan tetap mencantumkan atribusi lisensi aslinya. 😊
 
 ---
 
