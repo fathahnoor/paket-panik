@@ -1,5 +1,14 @@
 # Progress
 
+## 2026-09-12 05:38 WIB, UI/UX delivery checkpoint
+
+- Android build build_1a41a2aa752a SUCCEEDED, 0 errors, 7 warnings, 682004 ms. Current APK 44046955 bytes, SHA256 EF14079837579EA68CCB6AFCD47B30004F2267C097EBC21E0A300C8CE49F2752. Previous APK preserved; its former build summary archived in Evidence/UIUX/previous-build-android.json.
+- Verified v2 APK signature, Android/ARCore config, portrait, ARM64, manifest permissions and packed Inter font. The depth requirement also exists in the previous APK. Current report and exact warnings saved in Evidence/UIUX/; Evidence/build-android.json now identifies the new APK.
+- 22/22 EditMode tests passed this morning. The unchanged source retains yesterday's 19 Play UI and 7 connection/raycast PASS results. No Android device attached, so two-phone and independent-user QA remain NOT RUN.
+- Four local task commits already saved: 5b9ce60, 1c4bcd6, 9d3f4d7, 4160465. Final evidence/docs prepared for the fifth commit and the single authorized push. After delivery, verify live HEAD against remote main and consult .git/uiux-delivery.json before considering another push.
+- Excluded local state: pre-existing simulation settings and Editor-generated UnityConnectSettings.asset. Build regenerated old marker/preloaded changes back to HEAD. No deliberate configuration edit made for this UI task.
+- Next product action: physical-device QA, not another UI rewrite. Earlier entries below are historical checkpoints.
+
 ## 2026-09-12 05:23 WIB, resumed in Codex
 
 - Recovered intact work after quota interruption. Unity restarted into SampleScene; checked it was not dirty and opened PaketPanik through Unity CLI. Verified Inter reference and simulator=false in the saved scene.
@@ -56,4 +65,3 @@ Every implementation checkpoint must append its file changes, exact verification
 - XR Simulation Editor disiapkan (`SimulationPaketPanik.prefab` memakai marker kita + pose kamera menghadap marker). Environment dan marker ter-render di Game view; kalibrasi SharedBoard pernah sukses sekali; discovery gambar tidak konsisten. Bukan pengganti uji perangkat.
 - Commit lokal sesi ini: 272a77e, 61c95ff, 6db4a88, 5072070, 9e0dedb, c2a858b (+ fix UI/CS0618). Push ditunda ke ~10:45 sesuai permintaan pengguna (menghindari popup kredensial).
 - Next: rebuild APK dengan kode final (sedang berjalan), finalisasi Evidence/build-android.json (hash baru), update TASK_STATE/HANDOFF, lalu push semua commit dan uji dua perangkat oleh pengguna dengan checklist.
-

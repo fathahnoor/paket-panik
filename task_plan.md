@@ -6,8 +6,9 @@
 - [x] Implement parcel visual identity and guided join/readiness/HUD/results.
 - [x] Verify 22 EditMode tests, 19 Play UI checks and 7 connection/raycast checks.
 - [x] Visually inspect normal/compact/inset layouts and scrolling guide.
-- [ ] Rebuild Android APK and save current build evidence.
-- [ ] Update portable handoff, local final commit, then push once.
+- [x] Rebuild Android APK and save current build/hash/manifest/signature evidence.
+- [x] Update portable handoff and prepare final delivery commit.
+- [ ] Single final push: consult live Git state and .git/uiux-delivery.json receipt before repeating it.
 
 The older implementation checklist below is historical; completed vertical-slice work is detailed in HANDOFF.md.
 

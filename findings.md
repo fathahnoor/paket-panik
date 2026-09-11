@@ -2,6 +2,8 @@
 
 ## UI/UX refresh, 2026-09-11 to 2026-09-12
 
+- Final Android build succeeded on 12 September: 42.0 MiB APK, signature v2 verified, ARCoreLoader and Inter font present. The manifest requires depth support, as did the OpenCode APK. This is a device-compatibility constraint for release QA, not proof of independent play. Full current build evidence: Evidence/build-android.json and Evidence/UIUX/.
+
 - Presentation now separates PanicInterface (screens/input feedback), PanicSurface (rounded vector Graphic), and PanicPresentation (world/audio/intent bridge). Inter font is assigned through the scene and generator using the existing MR template asset.
 - A custom MaskableGraphic needs RequireComponent(CanvasRenderer). Use onValidateInput for digit-only legacy InputField validation; this UGUI version has no CharacterValidation.Digit.
 - Minute/second display must derive from a single rounded total; loot progress is elapsed hold time divided by each item type's configured duration.

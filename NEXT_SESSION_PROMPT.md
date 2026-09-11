@@ -6,6 +6,8 @@ PAKET PANIK sudah memiliki implementasi Android AR multiplayer LAN dari OpenCode
 
 Pengguna meminta commit lokal berkala dan tepat satu push setelah tugas UI/UX selesai. Periksa catatan push dan git status sebelum bertindak; jangan mengulang push yang sudah selesai. Perubahan marker cache, simulation settings dan preloaded assets sudah ada sebelumnya, jadi pertahankan dan jangan stage tanpa sengaja.
 
+UI/UX dan build Android sudah selesai pada 12 September 2026. APK 42,0 MiB beserta SHA256, manifest dan verifikasi tanda tangan tercatat di Evidence/build-android.json. Cocokkan HEAD dengan remote dan lihat .git/uiux-delivery.json jika ada untuk memastikan push terakhir. Editor mengubah UnityConnectSettings.asset tanpa edit sengaja dari tugas UI; file tersebut tidak diikutkan commit. Jangan mengulang build hanya karena membaca checkpoint historis di progress.md.
+
 Gunakan Unity CLI resmi untuk inspect, Play Mode, compile, tests dan build. Jangan mengedit YAML scene/prefab/meta secara manual. Tools/UIUXReview.cs menyediakan fixture Editor, bukan bukti multiplayer di HP. Gunakan PaketPanik.Tests untuk seluruh 22 kasus EditMode.
 
 Sebelum menyatakan siap untuk itch.io, jalankan pengujian dua HP nyata dan onboarding pemain mandiri melalui Evidence/DEVICE-QA-CHECKLIST.md. Jangan mengarang keberhasilan AR, networking, performa atau keyboard Android. Publikasi ke itch.io belum dilakukan dan bukan langkah otomatis dari handoff ini.

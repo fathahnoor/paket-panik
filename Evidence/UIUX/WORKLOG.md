@@ -34,3 +34,13 @@ Next: implement presentation, compile, inspect portrait and compact layouts, exe
 - main still ahead of origin/main by the two task commits (5b9ce60, 1c4bcd6); no push has occurred. Follow-up source and evidence remain intact.
 - Unity 6000.6.0f1 ready, port 7800, new process; build_status idle.
 - Next: refresh the cheap compile/test gate, commit follow-up source/evidence, build Android, verify report/hash/manifest, finalize continuity, then one push.
+
+## Final verification, 2026-09-12 05:38 WIB
+
+- Reran 22 EditMode tests in the fresh Editor: PASS 22/22. Source/evidence committed as 9d3f4d7, docs and previews as 4160465.
+- Build build_1a41a2aa752a: Succeeded, 0 errors, 7 warnings, 682004 ms. Explicit PaketPanik scene. Inter-Regular font confirmed in packed assets.
+- APK output: 44046955 bytes, SHA256 EF14079837579EA68CCB6AFCD47B30004F2267C097EBC21E0A300C8CE49F2752. Bundled apksigner verified APK v2 signature. aapt verified package/version, ARM64, portrait, ARCore Required and depth Required. Depth requirement matches the old APK, not a UI regression.
+- VerifyAndroid.Run: target=Android, pkg=com.fathahnoor.paketpanik, minSdk=26, arch=ARM64, backend=IL2CPP, apis=OpenGLES3, orient=Portrait, loaders=ARCoreLoader.
+- Build warnings retained verbatim: Pipeline runtime config absent; ARCore generated test-library asset altered; diagnostics debug-symbol configuration; TMP deprecated shader pragma; three IL2CPP TMP method splitting notices. Build success is not device validation.
+- adb devices: no attached device. No Android install, real AR/LAN, keyboard or performance claim. UI screenshots remain Editor fixtures.
+- Old build summary archived as previous-build-android.json. Root Evidence/build-android.json now points to this build. Final continuity prepared for local commit and one push; inspect live Git and .git/uiux-delivery.json to verify completion.

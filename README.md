@@ -44,7 +44,7 @@ UI baru memisahkan beranda dan formulir gabung, memberi petunjuk kesiapan kedua 
 ## 🎮 Cara main (30 detik)
 
 1. 🃏 Cetak kartu marker 20 cm ([`Marker_PaketPanik_Print.html`](Assets/PaketPanik/Art/Marker_PaketPanik_Print.html)), **skala 100%**, sisi gambar harus 20,0 cm, letakkan datar di meja terang.
-2. 📲 Pasang APK di dua HP Android 8+ yang mendukung [ARCore](https://developers.google.com/ar/devices).
+2. 📲 Pasang APK di dua HP Android 8+ ARM64 yang mendukung [ARCore dan Depth API](https://developers.google.com/ar/devices). Build saat ini mewajibkan fitur depth di manifest.
 3. 📡 Kedua HP ke Wi-Fi yang sama. HP A tekan **Buat meja baru** dan bagikan IP + PIN. HP B pilih **Gabung meja teman**, isi IP + PIN, lalu tekan **Gabung sekarang**.
 4. 📸 Keduanya pindai kartu yang sama, tekan **Posisi cocok. Saya siap**, lalu host menekan **Mulai ronde**.
 5. 🔄 Satu pemain menahan **TAHAN UNTUK MENJAGA** (bidik paket), satu lagi menahan **TAHAN UNTUK MENGAMBIL** (bidik camilan). Gantian sebelum lampu habis!
@@ -89,7 +89,7 @@ git clone https://github.com/fathahnoor/paket-panik.git
 - 🏗️ **Rebuild APK** (Windows): `pwsh Tools/Build-AndroidApk.ps1` → hasil di `Builds/Android/PaketPanik.apk` + SHA256 otomatis.
 - 🔁 **Regenerate scene/marker/settings** (idempotent): menu Unity **PaketPanik → Build Project Assets**.
 - 🧪 **Jalankan tes**: Test Runner → EditMode → `PaketPanik.Tests`, atau via CLI: `unity command run_tests --mode editor --filter PaketPanik.Tests --filter_type assembly`.
-- 🕶️ **Tanpa HP?** Bisa! Play Mode sudah dikonfigurasi dengan **XR Simulation**, tekan **BUAT MEJA** untuk sesi AR simulasi di Editor.
+- 🕶️ **Pratinjau tanpa HP**: Play Mode menyediakan **XR Simulation**, tekan **Buat meja baru**. Penemuan marker simulasi masih tidak konsisten; gunakan HP untuk menguji AR sesungguhnya.
 
 ## 📁 Struktur repo
 

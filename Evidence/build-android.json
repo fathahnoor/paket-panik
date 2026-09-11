@@ -1,12 +1,14 @@
 {
-  "capturedAt": "2026-09-11T08:12:00+07:00",
-  "agent": "OpenCode / DeepSeek V4.1 Flash",
+  "capturedAt": "2026-09-12T05:39:29.5207288+07:00",
+  "agent": "GPT-6 Astra / Codex",
+  "sourceCommit": "9d3f4d7",
   "unity": "6000.6.0f1",
   "target": "Android",
+  "scene": "Assets/PaketPanik/Scenes/PaketPanik.unity",
   "apk": {
     "path": "Builds/Android/PaketPanik.apk",
-    "sizeBytes": 64444455,
-    "sha256": "3D8F092D493515F6C71034580055A80E905EA45F4B0E4FACE0D3DA624C23187A",
+    "sizeBytes": 44046955,
+    "sha256": "EF14079837579EA68CCB6AFCD47B30004F2267C097EBC21E0A300C8CE49F2752",
     "package": "com.fathahnoor.paketpanik",
     "versionName": "0.1.0",
     "versionCode": 1,
@@ -16,31 +18,58 @@
     "scriptingBackend": "IL2CPP",
     "graphicsApi": "OpenGLES3",
     "orientation": "portrait",
-    "note": "Final build after UI and CS0618 fixes; previous first-build hash 0E52B3E2... was superseded."
+    "signatureVerification": "PASS, APK Signature Scheme v2",
+    "releaseReadiness": "NOT VERIFIED"
   },
   "manifest": {
-    "permissions": ["android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.CAMERA"],
-    "features": ["android.hardware.camera.ar (required)", "com.google.ar.core.depth", "android.hardware.camera", "android.hardware.screen.portrait"],
+    "permissions": [
+      "android.permission.INTERNET",
+      "android.permission.ACCESS_NETWORK_STATE",
+      "android.permission.CAMERA",
+      "com.fathahnoor.paketpanik.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+    ],
+    "features": [
+      "android.hardware.camera.ar (required)",
+      "com.google.ar.core.depth (required)",
+      "android.hardware.camera",
+      "android.hardware.screen.portrait"
+    ],
+    "arcoreMetadata": "required",
+    "depthRequirement": "Pre-existing in previous APK",
     "noMicrophone": true,
     "noLocation": true,
     "noStorage": true
   },
   "buildReport": {
-    "buildId": "build_692ae0705451",
+    "buildId": "build_1a41a2aa752a",
     "status": "completed",
     "result": "Succeeded",
-    "buildTimeMs": 243657,
-    "totalWarnings": 8,
+    "buildTimeMs": 682004,
+    "startedAt": "2026-09-11T22:21:42.8404047Z",
+    "endedAt": "2026-09-11T22:33:04.8447974Z",
+    "totalWarnings": 7,
     "totalErrors": 0,
-    "note": "Second build (incremental) after UI chip fix and CS0618 fix; first full build took 23 minutes.",
-    "warningsSummary": [
-      "IL2CPP TMP methods split into own cpp (informational)",
-      "Pre-baked collision info on template mesh Sitting_Cylinder_Anim",
-      "TextMeshPro shader deprecation pragma",
-      "Diagnostics Data vs Debug Symbols note",
-      "Pipeline Runtime disabled in player builds (editor-only tooling)",
-      "Immutable package note: ARCore TestReferenceImageLibrary.asset churn"
-    ]
+    "warnings": [
+      "Pipeline: No RuntimePipelineConfig asset found (Project Settings > Pipeline > Runtime). Pipeline will be disabled in Player builds.",
+      "The following asset(s) located in immutable packages were unexpectedly altered. Making changes to immutable packages isn't recommended because the changes can be lost without any warning during Package Manager operations.\n  Packages/com.unity.xr.arcore/Tests/Editor/Assets/TestReferenceImageLibrary.asset\n",
+      "Diagnostics Data is enabled, and it requires Debug Symbols to be either SymbolTable or Full to resolve stacktraces in crash reports. Consider selecting Full to receive fully-detailed crash reports.",
+      "Shader warning in 'TextMeshPro/Mobile/Distance Field': #pragma enable_d3d11_debug_symbols has been deprecated, instead please use #pragma enable_debug_symbols at line 84",
+      "C:\\DevPath\\260911_demo-mr\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp: [Unity.TextMeshPro] - System.Void TMPro.TMP_TextParsingUtilities::.cctor() - Method was given it's own cpp file because it is large and costly to compile",
+      "C:\\DevPath\\260911_demo-mr\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp: [Unity.TextMeshPro] - System.Void TMPro.TextMeshPro::GenerateTextMesh() - Method was given it's own cpp file because it is large and costly to compile",
+      "C:\\DevPath\\260911_demo-mr\\Library\\Bee\\artifacts\\Android\\il2cppOutput\\cpp: [Unity.TextMeshPro] - System.Void TMPro.TextMeshProUGUI::GenerateTextMesh() - Method was given it's own cpp file because it is large and costly to compile"
+    ],
+    "fullReport": "Evidence/UIUX/build-status.json",
+    "note": "APK size measured from the output file. Unity totalSizeBytes includes other build outputs."
   },
-  "deviceTests": "NOT RUN - no Android device attached at build time; no tracking, performance, or two-device evidence claimed"
+  "verifiedAssets": [
+    "PaketPanik scene",
+    "Inter-Regular.ttf font"
+  ],
+  "evidence": [
+    "Evidence/UIUX/apk-manifest.txt",
+    "Evidence/UIUX/apk-manifest-tree.txt",
+    "Evidence/UIUX/apk-signature.txt"
+  ],
+  "previousBuild": "Evidence/UIUX/previous-build-android.json",
+  "deviceTests": "NOT RUN; adb listed no device. No installation, real AR, keyboard, performance, two-phone LAN or independent onboarding claim."
 }
